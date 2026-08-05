@@ -1,0 +1,14 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+rsa_private_key.p8
+rsa_public_key.pub
+profiles.yml
+
+# Virtual environments
+.venv
+.env

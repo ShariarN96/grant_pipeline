@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM bronze.bronze_grants

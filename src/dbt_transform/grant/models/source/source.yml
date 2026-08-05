@@ -1,0 +1,6 @@
+sources:
+  - name: grant
+    database: GRANTS
+    schema: bronze
+    tables:
+        - name: bronze_grants

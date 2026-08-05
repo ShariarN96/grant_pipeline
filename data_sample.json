@@ -1,0 +1,72 @@
+{
+  "agency": "HHS-CDC-GHC",
+  "agency_code": "HHS-CDC-GHC",
+  "agency_name": "Centers for Disease Control-GHC",
+  "category": "discretionary",
+  "category_explanation": null,
+  "legacy_opportunity_id": 360336,
+  "opportunity_assistance_listings": [
+    {
+      "assistance_listing_number": "93.318",
+      "program_title": "Protecting and Improving Health Globally: Building and Strengthening Public Health Impact, Systems, Capacity and Security"
+    }
+  ],
+  "opportunity_id": "cd0b0182-3083-4c13-a1e6-0519c0d4dd1b",
+  "opportunity_number": "CDC-RFA-JG-26-0051",
+  "opportunity_status": "posted",
+  "opportunity_title": "Strengthening global health security in India to contain public health threats and accelerate outbreak response",
+  "summary": {
+    "additional_info_url": null,
+    "additional_info_url_description": null,
+    "agency_contact_description": "Broderick Yoerg\nDGHPNOFOs@cdc.gov",
+    "agency_email_address": "DGHPNOFOs@cdc.gov",
+    "agency_email_address_description": "DGHPNOFOs@cdc.gov",
+    "applicant_eligibility_description": "N/A",
+    "applicant_types": [
+      "state_governments",
+      "county_governments",
+      "city_or_township_governments",
+      "special_district_governments",
+      "independent_school_districts",
+      "public_and_state_institutions_of_higher_education",
+      "federally_recognized_native_american_tribal_governments",
+      "public_and_indian_housing_authorities",
+      "other_native_american_tribal_organizations",
+      "nonprofits_non_higher_education_with_501c3",
+      "nonprofits_non_higher_education_without_501c3",
+      "private_institutions_of_higher_education",
+      "for_profit_organizations_other_than_small_businesses",
+      "small_businesses",
+      "unrestricted"
+    ],
+    "archive_date": "2026-11-01",
+    "award_ceiling": 0,
+    "award_floor": 0,
+    "close_date": "2026-10-02",
+    "close_date_description": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+    "created_at": "2026-08-03T23:04:40+00:00",
+    "estimated_total_program_funding": 5000000,
+    "expected_number_of_awards": 2,
+    "fiscal_year": null,
+    "forecasted_award_date": null,
+    "forecasted_close_date": null,
+    "forecasted_close_date_description": null,
+    "forecasted_post_date": null,
+    "forecasted_project_start_date": null,
+    "funding_categories": [
+      "health"
+    ],
+    "funding_category_description": null,
+    "funding_instruments": [
+      "cooperative_agreement"
+    ],
+    "is_cost_sharing": false,
+    "is_forecast": false,
+    "post_date": "2026-08-03",
+    "summary_description": "This NOFO\"s purpose is to support district, state and national public health systems in India to advance GHSA priorities to prevent, detect and respond to infectious disease threats. CDC will work with the Government of India (GoI) to strengthen capacity to control disease outbreaks at their source and neutralize public health threats. This NOFO will augment and increasingly transition CDC-supported GHSA initiatives to GoI institutions including the National Centre for Disease Control, National Health Mission, Indian Council of Medical Research, National Disaster Management Authority, National Institute of Disaster Management and All Indian Institute of Medical Science. The core aim is to enhance India\"s public health capacity through a One Health approach in alignment with the International Health Regulations in five key areas: 1) public health workforce; 2) disease surveillance; 3) laboratory systems; 4) emergency preparedness and response; and 5) antimicrobial resistance.",
+    "updated_at": "2026-08-03T23:04:40+00:00",
+    "version_number": 1
+  },
+  "top_level_agency_code": "HHS",
+  "top_level_agency_name": "Department of Health and Human Services"
+}

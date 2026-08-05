@@ -1,0 +1,9 @@
+
+target/
+dbt_packages/
+logs/
+.env
+dbt_internal_packages/
+rsa_private_key.p8
+rsa_public_key.pub
+profiles.yml
