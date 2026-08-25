@@ -1,3 +1,4 @@
 {
-    "dbt.perspectiveTheme": "Vintage"
+    "dbt.perspectiveTheme": "Vintage",
+    "dbt.dbtMajorVersion": "v1"
 }
