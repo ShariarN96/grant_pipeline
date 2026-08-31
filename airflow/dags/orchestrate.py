@@ -1,9 +1,15 @@
+import pendulum
+
 from airflow.sdk import dag, task
 from airflow.providers.standard.operators.bash import BashOperator
 from ingestion.ingest import ingest_opportunities
 from ingestion.load_snowflake import load_opportunities_to_snowflake
 
-@dag
+@dag(
+    schedule="0 2 * * *",
+    start_date=pendulum.datetime(2026, 8, 31, tz="America/Chicago"),
+    catchup=False,
+)
 def orchestrate():
     @task
     def ingest_cdc():

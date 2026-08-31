@@ -1,0 +1,429 @@
+{"timestamp":"2026-08-31T14:58:20.389305Z","level":"info","event":"::group::Pre Execute","logger":"task","filename":"task_runner.py","lineno":2412}
+{"timestamp":"2026-08-31T14:58:23.928754Z","level":"info","event":"DAG bundles loaded: dags-folder","dag_id":"orchestrate","run_id":"scheduled__2026-08-31T02:00:00+00:00","ti_id":"01a05853-d925-76af-8968-2aad44bac059","task_id":"ingest_cdc","map_index":-1,"try_number":1,"logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":304}
+{"timestamp":"2026-08-31T14:58:23.931392Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrate.py","dag_id":"orchestrate","run_id":"scheduled__2026-08-31T02:00:00+00:00","ti_id":"01a05853-d925-76af-8968-2aad44bac059","task_id":"ingest_cdc","map_index":-1,"try_number":1,"logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":460}
+{"timestamp":"2026-08-31T14:58:25.116647Z","level":"warning","event":"urllib3 (2.7.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.7) doesn't match a supported version!","category":"UserWarning","filename":"/home/airflow/.local/lib/python3.13/site-packages/snowflake/connector/vendored/requests/__init__.py","lineno":113,"dag_id":"orchestrate","run_id":"scheduled__2026-08-31T02:00:00+00:00","ti_id":"01a05853-d925-76af-8968-2aad44bac059","task_id":"ingest_cdc","map_index":-1,"try_number":1,"logger":"py.warnings"}
+{"timestamp":"2026-08-31T14:58:25.118342Z","level":"info","event":"Worker startup parse complete","bundle_name":"dags-folder","bundle_version":null,"dag_file":"orchestrate.py","dag_id":"orchestrate","bundle_prepare_ms":3,"dag_file_parse_ms":1187,"run_id":"scheduled__2026-08-31T02:00:00+00:00","ti_id":"01a05853-d925-76af-8968-2aad44bac059","task_id":"ingest_cdc","map_index":-1,"try_number":1,"logger":"task","filename":"task_runner.py","lineno":1073}
+{"timestamp":"2026-08-31T14:58:25.145428Z","level":"info","event":"::endgroup::","dag_id":"orchestrate","run_id":"scheduled__2026-08-31T02:00:00+00:00","ti_id":"01a05853-d925-76af-8968-2aad44bac059","task_id":"ingest_cdc","map_index":-1,"try_number":1,"logger":"task","filename":"task_runner.py","lineno":2232}
+{"timestamp":"2026-08-31T14:58:25.347039Z","level":"info","event":"Status: 200","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.349151Z","level":"info","event":"Opportunities posted since 2026-08-30: 6","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.350903Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.352897Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.355177Z","level":"info","event":"OPPORTUNITY 1 of 6","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.356995Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.358902Z","level":"info","event":"{","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.360872Z","level":"info","event":"  \"agency\": \"DOS-SAU\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.362848Z","level":"info","event":"  \"agency_code\": \"DOS-SAU\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.364791Z","level":"info","event":"  \"agency_name\": \"U.S. Mission to Saudi Arabia\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.366497Z","level":"info","event":"  \"category\": \"discretionary\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.368266Z","level":"info","event":"  \"category_explanation\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.370004Z","level":"info","event":"  \"legacy_opportunity_id\": 363746,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.371674Z","level":"info","event":"  \"opportunity_assistance_listings\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.373401Z","level":"info","event":"    {","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.374819Z","level":"info","event":"      \"assistance_listing_number\": \"19.040\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.376335Z","level":"info","event":"      \"program_title\": \"Public Diplomacy Programs\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.377806Z","level":"info","event":"    }","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.379637Z","level":"info","event":"  ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.381337Z","level":"info","event":"  \"opportunity_id\": \"bc37c884-aa28-48cc-9863-cf02d2c6046b\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.382973Z","level":"info","event":"  \"opportunity_number\": \"DOS-SAU-2606-PD\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.384574Z","level":"info","event":"  \"opportunity_status\": \"posted\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.386100Z","level":"info","event":"  \"opportunity_title\": \"MENA Freedom 250 NFL Flag Football Launch and Championship\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.387686Z","level":"info","event":"  \"purpose_statement\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.389577Z","level":"info","event":"  \"summary\": {","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.390966Z","level":"info","event":"    \"additional_info_url\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.392476Z","level":"info","event":"    \"additional_info_url_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.394101Z","level":"info","event":"    \"agency_contact_description\": \"Public Diplomacy Section\\r\\nU.S. Embassy, Riyadh\\r\\nPhone 00966118354000\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.395690Z","level":"info","event":"    \"agency_email_address\": \"RiyadhGrants@state.gov\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.397085Z","level":"info","event":"    \"agency_email_address_description\": \"For inquiries\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.398807Z","level":"info","event":"    \"applicant_eligibility_description\": \"\\u2022\\tNot-for-profit organizations, including sports diplomacy implementers, cultural exchange organizations, and civil society/NGOs with demonstrated experience in international sports programming\\r\\n\\u2022\\tPublic and private educational institutions with athletics or exchange programming capacity\\r\\n\\u2022\\tPublic international organizations and governmental institutions with relevant sports programming experience\\r\\n\\u2022\\tFor-profit entities are not eligible to apply as prime recipients but may be engaged as in-kind partners under the Recipient's award.\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.400481Z","level":"info","event":"    \"applicant_types\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.402102Z","level":"info","event":"      \"other\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.403815Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.405580Z","level":"info","event":"    \"archive_date\": \"2026-10-14\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.407036Z","level":"info","event":"    \"award_ceiling\": 150000,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.408599Z","level":"info","event":"    \"award_floor\": 100000,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.409897Z","level":"info","event":"    \"close_date\": \"2026-09-14\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.411124Z","level":"info","event":"    \"close_date_description\": \"\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.412566Z","level":"info","event":"    \"created_at\": \"2026-08-31T13:08:16+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.413903Z","level":"info","event":"    \"estimated_total_program_funding\": 150000,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.415533Z","level":"info","event":"    \"expected_number_of_awards\": 1,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.417044Z","level":"info","event":"    \"fiscal_year\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.418107Z","level":"info","event":"    \"forecasted_award_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.419120Z","level":"info","event":"    \"forecasted_close_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.420218Z","level":"info","event":"    \"forecasted_close_date_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.421543Z","level":"info","event":"    \"forecasted_post_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.422632Z","level":"info","event":"    \"forecasted_project_start_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.423685Z","level":"info","event":"    \"funding_categories\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.424551Z","level":"info","event":"      \"other\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.425575Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.426541Z","level":"info","event":"    \"funding_category_description\": \"Public Diplomacy\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.427556Z","level":"info","event":"    \"funding_instruments\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.428412Z","level":"info","event":"      \"cooperative_agreement\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.429367Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.430432Z","level":"info","event":"    \"is_cost_sharing\": false,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.431494Z","level":"info","event":"    \"is_forecast\": false,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.432521Z","level":"info","event":"    \"post_date\": \"2026-08-31\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.433558Z","level":"info","event":"    \"summary_description\": \"<p>Under the U.S. Department of State\\u2013NFL Sports Diplomacy Partnership, the U.S. Mission to Saudi Arabia announces an open competition to implement the \\\"MENA Freedom 250\\\" NFL Flag Football Launch and Championship, culminating in a March 2027 regional championship event in Riyadh. This 12-month program will establish a foundational development pipeline for MENA flag football athletes inspired by the sport's upcoming debut at the LA28 Summer Games, support participating countries in organizing national outreach events and youth programs, and leverage iconic American cultural exports to advance U.S. influence, economic interests, and sport-governance leadership.&nbsp;</p>\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.434604Z","level":"info","event":"    \"updated_at\": \"2026-08-31T13:08:16+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.435867Z","level":"info","event":"    \"version_number\": 1","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.437032Z","level":"info","event":"  },","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.438388Z","level":"info","event":"  \"tagline\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.439772Z","level":"info","event":"  \"top_level_agency_code\": \"DOS\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.440996Z","level":"info","event":"  \"top_level_agency_name\": \"Department of State\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.442058Z","level":"info","event":"}","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.443232Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.444222Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.444883Z","level":"info","event":"OPPORTUNITY 2 of 6","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.446261Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.447501Z","level":"info","event":"{","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.448658Z","level":"info","event":"  \"agency\": \"DOD-AFOSR\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.449625Z","level":"info","event":"  \"agency_code\": \"DOD-AFOSR\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.450790Z","level":"info","event":"  \"agency_name\": \"Air Force Office of Scientific Research\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.451868Z","level":"info","event":"  \"category\": \"discretionary\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.452988Z","level":"info","event":"  \"category_explanation\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.454144Z","level":"info","event":"  \"legacy_opportunity_id\": 363745,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.455322Z","level":"info","event":"  \"opportunity_assistance_listings\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.456327Z","level":"info","event":"    {","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.457424Z","level":"info","event":"      \"assistance_listing_number\": \"12.800\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.458485Z","level":"info","event":"      \"program_title\": \"Air Force Defense Research Sciences Program\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.459507Z","level":"info","event":"    }","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.460227Z","level":"info","event":"  ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.461301Z","level":"info","event":"  \"opportunity_id\": \"b7fddbe0-486a-4d82-bfa3-14fb0f0b0527\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.462192Z","level":"info","event":"  \"opportunity_number\": \"FA955026S0002\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.463604Z","level":"info","event":"  \"opportunity_status\": \"posted\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.464591Z","level":"info","event":"  \"opportunity_title\": \"Air Force Basic Research Sciences Conference and Workshop Support\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.465741Z","level":"info","event":"  \"purpose_statement\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.466898Z","level":"info","event":"  \"summary\": {","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.468026Z","level":"info","event":"    \"additional_info_url\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.469071Z","level":"info","event":"    \"additional_info_url_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.469859Z","level":"info","event":"    \"agency_contact_description\": \"Jennifer Brown\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.470777Z","level":"info","event":"    \"agency_email_address\": \"afosr.baa@us.af.mil\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.471722Z","level":"info","event":"    \"agency_email_address_description\": \"BAA Email\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.472806Z","level":"info","event":"    \"applicant_eligibility_description\": \"Only some organizations are eligible to submit proposals for conference or workshop support. We can consider conference or workshop funding requests from U.S. institutions of higher education (IHE) or nonprofit organizations, including foreign public entities and foreign organizations operated primarily for scientific, educational, service, charitable, or similar purposes in the public interest.\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.473927Z","level":"info","event":"    \"applicant_types\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.474962Z","level":"info","event":"      \"public_and_state_institutions_of_higher_education\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.476123Z","level":"info","event":"      \"nonprofits_non_higher_education_with_501c3\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.477240Z","level":"info","event":"      \"other\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.478458Z","level":"info","event":"      \"private_institutions_of_higher_education\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.479738Z","level":"info","event":"      \"nonprofits_non_higher_education_without_501c3\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.481020Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.482307Z","level":"info","event":"    \"archive_date\": \"2029-09-30\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.483911Z","level":"info","event":"    \"award_ceiling\": 2000000,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.485391Z","level":"info","event":"    \"award_floor\": 1,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.486547Z","level":"info","event":"    \"close_date\": \"2029-08-31\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.487996Z","level":"info","event":"    \"close_date_description\": \"\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.489586Z","level":"info","event":"    \"created_at\": \"2026-08-31T13:09:11+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.490939Z","level":"info","event":"    \"estimated_total_program_funding\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.492108Z","level":"info","event":"    \"expected_number_of_awards\": 500,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.493835Z","level":"info","event":"    \"fiscal_year\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.495165Z","level":"info","event":"    \"forecasted_award_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.496383Z","level":"info","event":"    \"forecasted_close_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.497700Z","level":"info","event":"    \"forecasted_close_date_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.499101Z","level":"info","event":"    \"forecasted_post_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.500541Z","level":"info","event":"    \"forecasted_project_start_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.501931Z","level":"info","event":"    \"funding_categories\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.503517Z","level":"info","event":"      \"science_technology_and_other_research_and_development\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.504968Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.506587Z","level":"info","event":"    \"funding_category_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.508207Z","level":"info","event":"    \"funding_instruments\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.510186Z","level":"info","event":"      \"cooperative_agreement\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.511866Z","level":"info","event":"      \"grant\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.513400Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.514883Z","level":"info","event":"    \"is_cost_sharing\": false,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.516342Z","level":"info","event":"    \"is_forecast\": false,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.517749Z","level":"info","event":"    \"post_date\": \"2026-08-31\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.519127Z","level":"info","event":"    \"summary_description\": \"<p>The Air Force Office of Scientific Research manages the basic research investment for the Department of the Air Force. Conferences and workshops constitute key forums for research and technology interchange. We provide partial support for conferences and workshops as defined in the DoW Joint Travel Regulations in special areas of science that bring experts together to discuss recent research or educational findings, or to expose other researchers or advanced graduate students to new research and educational techniques in our areas of research interest. Our research interests are described in the most recent version of our general Broad Agency Announcement titled, \\u201cResearch Interests of the Air Force Office of Scientific Research\\u201d posted on Grants.gov.</p><p><br></p><p>We can only consider funding requests from U.S. institutions of higher education (IHE) or nonprofit organizations as described in 2 CFR 200.1, including foreign public entities and foreign organizations operated primarily for scientific, educational, service, charitable, or similar purposes in the public interest. We do not award grants to organizations with a for-profit organization type.</p><p><br></p><p>Our support for a workshop or conference is not an endorsement of any organization.</p>\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.520624Z","level":"info","event":"    \"updated_at\": \"2026-08-31T13:32:36+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.522033Z","level":"info","event":"    \"version_number\": 2","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.523480Z","level":"info","event":"  },","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.524921Z","level":"info","event":"  \"tagline\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.526359Z","level":"info","event":"  \"top_level_agency_code\": \"DOD\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.527724Z","level":"info","event":"  \"top_level_agency_name\": \"Department of Defense\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.529122Z","level":"info","event":"}","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.530626Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.532092Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.533590Z","level":"info","event":"OPPORTUNITY 3 of 6","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.535179Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.536847Z","level":"info","event":"{","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.538509Z","level":"info","event":"  \"agency\": \"HHS-NIH11\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.540527Z","level":"info","event":"  \"agency_code\": \"HHS-NIH11\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.542179Z","level":"info","event":"  \"agency_name\": \"National Institutes of Health\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.543691Z","level":"info","event":"  \"category\": \"discretionary\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.545621Z","level":"info","event":"  \"category_explanation\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.547180Z","level":"info","event":"  \"legacy_opportunity_id\": 360606,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.548895Z","level":"info","event":"  \"opportunity_assistance_listings\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.550535Z","level":"info","event":"    {","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.551887Z","level":"info","event":"      \"assistance_listing_number\": \"93.395\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.553202Z","level":"info","event":"      \"program_title\": \"Cancer Treatment Research\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.554731Z","level":"info","event":"    },","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.556524Z","level":"info","event":"    {","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.558263Z","level":"info","event":"      \"assistance_listing_number\": \"93.394\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.356957Z","level":"info","event":"Request URL: 'https://grantproject.dfs.core.windows.net/bronze/grants_gov/ingest_date%3D2026-08-31/opportunities.json?resource=REDACTED'\nRequest method: 'PUT'\nRequest headers:\n    'x-ms-version': 'REDACTED'\n    'Accept': 'application/json'\n    'User-Agent': 'azsdk-python-storage-dfs/12.25.0 Python/3.13.14 (Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.36)'\n    'x-ms-date': 'REDACTED'\n    'x-ms-client-request-id': '6ad3bfea-a54c-11f1-bcd2-ce45cfbe13d6'\n    'Authorization': 'REDACTED'\nNo body was attached to the request","logger":"azure.core.pipeline.policies.http_logging_policy","dag_id":"orchestrate","run_id":"scheduled__2026-08-31T02:00:00+00:00","ti_id":"01a05853-d925-76af-8968-2aad44bac059","task_id":"ingest_cdc","map_index":-1,"try_number":1,"filename":"_universal.py","lineno":535}
+{"timestamp":"2026-08-31T14:58:25.543423Z","level":"info","event":"Response status: 201\nResponse headers:\n    'Last-Modified': 'Mon, 31 Aug 2026 14:58:25 GMT'\n    'ETag': '\"0x8DF07704F2A8148\"'\n    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'\n    'x-ms-request-server-encrypted': 'REDACTED'\n    'x-ms-request-id': '714d8e1a-801f-005b-6d59-3934b7000000'\n    'x-ms-version': 'REDACTED'\n    'x-ms-client-request-id': '6ad3bfea-a54c-11f1-bcd2-ce45cfbe13d6'\n    'Date': 'Mon, 31 Aug 2026 14:58:25 GMT'\n    'Content-Length': '0'","logger":"azure.core.pipeline.policies.http_logging_policy","dag_id":"orchestrate","run_id":"scheduled__2026-08-31T02:00:00+00:00","ti_id":"01a05853-d925-76af-8968-2aad44bac059","task_id":"ingest_cdc","map_index":-1,"try_number":1,"filename":"_universal.py","lineno":581}
+{"timestamp":"2026-08-31T14:58:25.545398Z","level":"info","event":"Request URL: 'https://grantproject.dfs.core.windows.net/bronze/grants_gov/ingest_date%3D2026-08-31/opportunities.json?action=REDACTED&position=REDACTED'\nRequest method: 'PATCH'\nRequest headers:\n    'Content-Length': '28314'\n    'x-ms-version': 'REDACTED'\n    'Content-Type': 'application/json'\n    'Accept': 'application/json'\n    'User-Agent': 'azsdk-python-storage-dfs/12.25.0 Python/3.13.14 (Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.36)'\n    'x-ms-date': 'REDACTED'\n    'x-ms-client-request-id': '6af09fd4-a54c-11f1-bcd2-ce45cfbe13d6'\n    'Authorization': 'REDACTED'\nA body is sent with the request","logger":"azure.core.pipeline.policies.http_logging_policy","dag_id":"orchestrate","run_id":"scheduled__2026-08-31T02:00:00+00:00","ti_id":"01a05853-d925-76af-8968-2aad44bac059","task_id":"ingest_cdc","map_index":-1,"try_number":1,"filename":"_universal.py","lineno":532}
+{"timestamp":"2026-08-31T14:58:25.564074Z","level":"info","event":"      \"program_title\": \"Cancer Detection and Diagnosis Research\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.565471Z","level":"info","event":"    }","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.566765Z","level":"info","event":"  ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.567991Z","level":"info","event":"  \"opportunity_id\": \"de7f0a72-0ef8-4c9c-894b-1fc92c9d1097\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.569725Z","level":"info","event":"  \"opportunity_number\": \"RFA-CA-27-005\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.571225Z","level":"info","event":"  \"opportunity_status\": \"posted\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.572756Z","level":"info","event":"  \"opportunity_title\": \"Glioblastoma Therapeutics Network (GTN) (U19 Clinical Trial Required)\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.574136Z","level":"info","event":"  \"purpose_statement\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.575607Z","level":"info","event":"  \"summary\": {","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.577027Z","level":"info","event":"    \"additional_info_url\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.578577Z","level":"info","event":"    \"additional_info_url_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.580039Z","level":"info","event":"    \"agency_contact_description\": \"NCI GTN Program National Cancer Institute (NCI)\\nGTN-contacts@nih.gov\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.581730Z","level":"info","event":"    \"agency_email_address\": \"GTN-contacts@nih.gov\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.583393Z","level":"info","event":"    \"agency_email_address_description\": \"National Cancer Institute (NCI)\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.585097Z","level":"info","event":"    \"applicant_eligibility_description\": \"Refer to Section III. Eligibility Information in the NOFO for additional information on eligibility.Foreign Organizations/International Collaborations:Non-domestic (non-U.S.) Entities (Foreign Organization) are not eligible to apply.Non-domestic (non-U.S.) components of U.S. Organizations are not eligible to apply.Foreign components, as defined in the NIH Grants Policy Statement, are not allowed.\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.586729Z","level":"info","event":"    \"applicant_types\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.588363Z","level":"info","event":"      \"other_native_american_tribal_organizations\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.590085Z","level":"info","event":"      \"public_and_indian_housing_authorities\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.591750Z","level":"info","event":"      \"private_institutions_of_higher_education\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.593353Z","level":"info","event":"      \"for_profit_organizations_other_than_small_businesses\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.595084Z","level":"info","event":"      \"other\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.596648Z","level":"info","event":"      \"public_and_state_institutions_of_higher_education\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.598405Z","level":"info","event":"      \"state_governments\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.600224Z","level":"info","event":"      \"nonprofits_non_higher_education_with_501c3\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.601739Z","level":"info","event":"      \"city_or_township_governments\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.603195Z","level":"info","event":"      \"special_district_governments\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.604966Z","level":"info","event":"      \"small_businesses\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.606777Z","level":"info","event":"      \"federally_recognized_native_american_tribal_governments\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.608418Z","level":"info","event":"      \"independent_school_districts\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.609958Z","level":"info","event":"      \"nonprofits_non_higher_education_without_501c3\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.611704Z","level":"info","event":"      \"county_governments\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.613227Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.614790Z","level":"info","event":"    \"archive_date\": \"2026-11-30\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.616122Z","level":"info","event":"    \"award_ceiling\": 700000,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.617615Z","level":"info","event":"    \"award_floor\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.619000Z","level":"info","event":"    \"close_date\": \"2026-10-01\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.620114Z","level":"info","event":"    \"close_date_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.621804Z","level":"info","event":"    \"created_at\": \"2026-08-31T13:35:48+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.623493Z","level":"info","event":"    \"estimated_total_program_funding\": 4400000,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.625080Z","level":"info","event":"    \"expected_number_of_awards\": 4,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.626602Z","level":"info","event":"    \"fiscal_year\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.628286Z","level":"info","event":"    \"forecasted_award_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.629699Z","level":"info","event":"    \"forecasted_close_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.631205Z","level":"info","event":"    \"forecasted_close_date_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.633006Z","level":"info","event":"    \"forecasted_post_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.634629Z","level":"info","event":"    \"forecasted_project_start_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.636126Z","level":"info","event":"    \"funding_categories\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.637631Z","level":"info","event":"      \"health\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.639101Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.640752Z","level":"info","event":"    \"funding_category_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.642296Z","level":"info","event":"    \"funding_instruments\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.644041Z","level":"info","event":"      \"cooperative_agreement\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.645253Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.646712Z","level":"info","event":"    \"is_cost_sharing\": false,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.648141Z","level":"info","event":"    \"is_forecast\": false,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.649564Z","level":"info","event":"    \"post_date\": \"2026-08-31\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.650989Z","level":"info","event":"    \"summary_description\": \"Through this Notice of Funding Opportunity (NOFO), the National Cancer Institute (NCI) solicits applications for research on novel therapies for adult glioblastoma (GBM). The goal is to improve the treatment of adult GBM by developing novel effective agents that can cross the blood brain barrier (BBB) and testing them clinically. Successful early-stage trials of new drugs from this NOFO would transition seamlessly to later stage trials using well-established NCI clinical trial mechanisms.To implement this concept, a highly collaborative GBM Therapeutics Network (GTN) of cross-cutting teams will be established, each team capable of driving therapeutic agent(s) from pre-clinical development, through investigational new drugs (IND) studies, into pilot clinical studies in humans. Appropriate therapeutic agents include: (1) novel agents or (2) agents or combinations approved for other indications and repurposed for treatment of GBM following appropriate preclinical studies. The scope of the NOFO, from late pre-clinical through early (Phase 0/1) clinical studies, uniquely spans a gap in the GBM drug development process.\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.652446Z","level":"info","event":"    \"updated_at\": \"2026-08-31T13:35:48+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.653888Z","level":"info","event":"    \"version_number\": 1","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.655370Z","level":"info","event":"  },","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.656939Z","level":"info","event":"  \"tagline\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.658518Z","level":"info","event":"  \"top_level_agency_code\": \"HHS\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.660147Z","level":"info","event":"  \"top_level_agency_name\": \"Department of Health and Human Services\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.661889Z","level":"info","event":"}","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.663773Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.665386Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.666881Z","level":"info","event":"OPPORTUNITY 4 of 6","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.668412Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.669890Z","level":"info","event":"{","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.671218Z","level":"info","event":"  \"agency\": \"NASA-HQ\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.672772Z","level":"info","event":"  \"agency_code\": \"NASA-HQ\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.674354Z","level":"info","event":"  \"agency_name\": \"NASA Headquarters\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.675908Z","level":"info","event":"  \"category\": \"discretionary\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.677386Z","level":"info","event":"  \"category_explanation\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.679406Z","level":"info","event":"  \"legacy_opportunity_id\": 363747,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.680839Z","level":"info","event":"  \"opportunity_assistance_listings\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.682266Z","level":"info","event":"    {","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.683576Z","level":"info","event":"      \"assistance_listing_number\": \"43.001\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.685083Z","level":"info","event":"      \"program_title\": \"Science\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.686591Z","level":"info","event":"    }","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.688114Z","level":"info","event":"  ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.689609Z","level":"info","event":"  \"opportunity_id\": \"fb11f302-7bf9-4c01-8ec7-43032bee386a\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.691088Z","level":"info","event":"  \"opportunity_number\": \"NNH25ZDA001N-TCAN\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.692716Z","level":"info","event":"  \"opportunity_status\": \"posted\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.694296Z","level":"info","event":"  \"opportunity_title\": \"D.4 Theoretical and Computational Astrophysics Networks\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.696087Z","level":"info","event":"  \"purpose_statement\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.697670Z","level":"info","event":"  \"summary\": {","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.699099Z","level":"info","event":"    \"additional_info_url\": \"https://solicitation.nasaprs.com/NNH25ZDA001N-TCAN\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.700802Z","level":"info","event":"    \"additional_info_url_description\": \"Click on the following link to see the full text of the announcement for this funding opportunity.\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.702169Z","level":"info","event":"    \"agency_contact_description\": \"Sanaz Vahidinia\\r\\nAstrophysics Division\\r\\nScience Mission Directorate\\r\\nNASA Headquarters\\r\\nWashington, DC 20546-0001\\r\\nTelephone: (202) 510-1982\\r\\nEmail: Sanaz.Vahidinia@nasa.gov\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.703891Z","level":"info","event":"    \"agency_email_address\": \"Sanaz.Vahidinia@nasa.gov\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.705276Z","level":"info","event":"    \"agency_email_address_description\": \"Direct questions about this funding announcement to:\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.706992Z","level":"info","event":"    \"applicant_eligibility_description\": \"Proposers must be affiliated with an institution at nspires.nasaprs.com/ and, in general, NASA provides funding only to U.S. institutions. Organizations outside the U.S. that propose on the basis of a policy of no-exchange-of-funds; consult the NASA Grant and Cooperative Agreement Manual (GCAM) (https://www.nasa.gov/grants-policy-and-compliance-team/#Regulations) for specific details. Some NRAs may be issued jointly with a non-U.S. organization, e.g., those concerning guest observing programs for jointly sponsored space science programs, that will contain additional special guidelines for non-U.S. participants. Also reference the GCAM for special instructions for proposals from non-U.S. organizations that involve U.S. personnel for whom NASA support is requested.\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.708631Z","level":"info","event":"    \"applicant_types\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.710465Z","level":"info","event":"      \"other\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.712101Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.714124Z","level":"info","event":"    \"archive_date\": \"2027-01-02\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.716012Z","level":"info","event":"    \"award_ceiling\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.718048Z","level":"info","event":"    \"award_floor\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.720054Z","level":"info","event":"    \"close_date\": \"2026-12-03\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.721750Z","level":"info","event":"    \"close_date_description\": \"\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.723940Z","level":"info","event":"    \"created_at\": \"2026-08-31T13:44:28+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.726632Z","level":"info","event":"    \"estimated_total_program_funding\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.728794Z","level":"info","event":"    \"expected_number_of_awards\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.730991Z","level":"info","event":"    \"fiscal_year\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.733513Z","level":"info","event":"    \"forecasted_award_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.737623Z","level":"info","event":"    \"forecasted_close_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.740824Z","level":"info","event":"    \"forecasted_close_date_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.744016Z","level":"info","event":"    \"forecasted_post_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.749000Z","level":"info","event":"    \"forecasted_project_start_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.751569Z","level":"info","event":"    \"funding_categories\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.754000Z","level":"info","event":"      \"science_technology_and_other_research_and_development\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.756183Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.758374Z","level":"info","event":"    \"funding_category_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.760862Z","level":"info","event":"    \"funding_instruments\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.763060Z","level":"info","event":"      \"cooperative_agreement\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.765425Z","level":"info","event":"      \"grant\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.766672Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.767734Z","level":"info","event":"    \"is_cost_sharing\": false,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.769110Z","level":"info","event":"    \"is_forecast\": false,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.770408Z","level":"info","event":"    \"post_date\": \"2026-08-31\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.593523Z","level":"info","event":"Response status: 202\nResponse headers:\n    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'\n    'x-ms-request-server-encrypted': 'REDACTED'\n    'x-ms-request-id': '714d8e20-801f-005b-7259-3934b7000000'\n    'x-ms-version': 'REDACTED'\n    'x-ms-client-request-id': '6af09fd4-a54c-11f1-bcd2-ce45cfbe13d6'\n    'Date': 'Mon, 31 Aug 2026 14:58:25 GMT'\n    'Content-Length': '0'","logger":"azure.core.pipeline.policies.http_logging_policy","dag_id":"orchestrate","run_id":"scheduled__2026-08-31T02:00:00+00:00","ti_id":"01a05853-d925-76af-8968-2aad44bac059","task_id":"ingest_cdc","map_index":-1,"try_number":1,"filename":"_universal.py","lineno":581}
+{"timestamp":"2026-08-31T14:58:25.595430Z","level":"info","event":"Request URL: 'https://grantproject.dfs.core.windows.net/bronze/grants_gov/ingest_date%3D2026-08-31/opportunities.json?action=REDACTED&position=REDACTED&close=REDACTED'\nRequest method: 'PATCH'\nRequest headers:\n    'If-Match': '\"0x8DF07704F2A8148\"'\n    'x-ms-version': 'REDACTED'\n    'Accept': 'application/json'\n    'User-Agent': 'azsdk-python-storage-dfs/12.25.0 Python/3.13.14 (Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.36)'\n    'x-ms-date': 'REDACTED'\n    'x-ms-client-request-id': '6af84144-a54c-11f1-bcd2-ce45cfbe13d6'\n    'Authorization': 'REDACTED'\nNo body was attached to the request","logger":"azure.core.pipeline.policies.http_logging_policy","dag_id":"orchestrate","run_id":"scheduled__2026-08-31T02:00:00+00:00","ti_id":"01a05853-d925-76af-8968-2aad44bac059","task_id":"ingest_cdc","map_index":-1,"try_number":1,"filename":"_universal.py","lineno":535}
+{"timestamp":"2026-08-31T14:58:25.654682Z","level":"info","event":"Response status: 200\nResponse headers:\n    'Last-Modified': 'Mon, 31 Aug 2026 14:58:25 GMT'\n    'ETag': '\"0x8DF07704F3C3C38\"'\n    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'\n    'x-ms-request-server-encrypted': 'REDACTED'\n    'x-ms-request-id': '714d8e22-801f-005b-7459-3934b7000000'\n    'x-ms-version': 'REDACTED'\n    'x-ms-client-request-id': '6af84144-a54c-11f1-bcd2-ce45cfbe13d6'\n    'Date': 'Mon, 31 Aug 2026 14:58:25 GMT'\n    'Content-Length': '0'","logger":"azure.core.pipeline.policies.http_logging_policy","dag_id":"orchestrate","run_id":"scheduled__2026-08-31T02:00:00+00:00","ti_id":"01a05853-d925-76af-8968-2aad44bac059","task_id":"ingest_cdc","map_index":-1,"try_number":1,"filename":"_universal.py","lineno":581}
+{"timestamp":"2026-08-31T14:58:25.657249Z","level":"info","event":"Done. Returned value was: 6","dag_id":"orchestrate","run_id":"scheduled__2026-08-31T02:00:00+00:00","ti_id":"01a05853-d925-76af-8968-2aad44bac059","task_id":"ingest_cdc","map_index":-1,"try_number":1,"logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":233}
+{"timestamp":"2026-08-31T14:58:25.657514Z","level":"info","event":"::group::Post Execute","dag_id":"orchestrate","run_id":"scheduled__2026-08-31T02:00:00+00:00","ti_id":"01a05853-d925-76af-8968-2aad44bac059","task_id":"ingest_cdc","map_index":-1,"try_number":1,"logger":"task","filename":"task_runner.py","lineno":1580}
+{"timestamp":"2026-08-31T14:58:25.657815Z","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('01a05853-d925-76af-8968-2aad44bac059'), task_id='ingest_cdc', dag_id='orchestrate', run_id='scheduled__2026-08-31T02:00:00+00:00', try_number=1, dag_version_id=UUID('01a05853-d41c-7eda-a5a8-55d1335f4d18'), map_index=-1, hostname='89db77d81350', context_carrier={'traceparent': '00-769536b1bdba68f2b17b485b9f07535b-6714232ac8e0c7ed-00'}, queue='default', task=<Task(_PythonDecoratedOperator): ingest_cdc>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2026, 8, 31, 14, 58, 23, 914458, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None, sentry_integration='sentry_sdk.integrations.celery.CeleryIntegration')","dag_id":"orchestrate","run_id":"scheduled__2026-08-31T02:00:00+00:00","ti_id":"01a05853-d925-76af-8968-2aad44bac059","task_id":"ingest_cdc","map_index":-1,"try_number":1,"logger":"task","filename":"task_runner.py","lineno":2280}
+{"timestamp":"2026-08-31T14:58:25.800334Z","level":"info","event":"    \"summary_description\": \"<p><span style=\\\"color: red;\\\">PLEASE NOTE: this program has MANDATORY Notices of Intent, which are due via NSPIRES by </span><strong style=\\\"color: red;\\\"><u>October 15, 2026</u></strong><span style=\\\"color: red;\\\">. See the full posting on NSPIRES for details.</span></p> \\n<p><br></p> \\n<p><br></p> \\n<p><strong>NOTICE: Amended August 31, 2026. This amendment releases the final text for this program element, which was previously TBD. Mandatory NOIs are due October 15, 2026, and proposals are due December 3, 2026. There are several major changes since the prior (2022) opportunity, so proposers please read carefully. This program will evaluate proposals using an enhanced dual-anonymous peer review, see Section 5 and the associated \\\"Guidelines for Proposers to ROSES DAPR Programs\\\" document under \\\"Other Documents\\\" on the right side of this NSPIRES page. </strong></p> \\n<p><br></p> \\n<p><br></p> \\n<p><span style=\\\"color: black;\\\">This synopsis is a generic summary that is posted for each of the many individual \\\"program elements\\\" in NASA\\u2019s Research Opportunities in Space and Earth Sciences (ROSES) \\u2013 2025 solicitation. For specific information on this particular program element download and read the PDF of the text of this program element by going to Tables&nbsp;</span><a href=\\\"https://solicitation.nasaprs.com/ROSES2025table2\\\" target=\\\"_blank\\\">2</a><span style=\\\"color: black;\\\">&nbsp;or&nbsp;</span><a href=\\\"https://solicitation.nasaprs.com/ROSES2025table3\\\" target=\\\"_blank\\\">3</a><span style=\\\"color: black;\\\">&nbsp;of ROSES at&nbsp;</span><a href=\\\"https://solicitation.nasaprs.com/ROSES2025table2\\\" target=\\\"_blank\\\">https://solicitation.nasaprs.com/ROSES2025table2</a></p> \\n<p><span style=\\\"color: black;\\\">and&nbsp;</span><a href=\\\"https://solicitation.nasaprs.com/ROSES2025table3\\\" target=\\\"_blank\\\">https://solicitation.nasaprs.com/ROSES2025table3</a><span style=\\\"color: black;\\\">, respectively, click the title of the program element of interest, a hypertext link will take you to a page for that particular program element. On that page, on the right side under \\\"Announcement Documents\\\" the link on the bottom will be to the PDF of the text of the call for proposals. For example, if one were interested in&nbsp;the Solar System Science program (NNH25ZDA001N-SCUBED) one would follow&nbsp;</span><a href=\\\"https://nspires.nasaprs.com/external/solicitations/summary.do?solId=%7bC92A28D2-9E30-4149-24B7-8A40ED4F564B%7d&amp;path=&amp;method=init\\\" target=\\\"_blank\\\">the link to the NSPIRES page for that program element</a><span style=\\\"color: black;\\\">&nbsp;and then to read the text of the call one would click on&nbsp;\\u201cC.2 Solar System Science (.pdf)\\u201d</span><span style=\\\"color: purple;\\\">&nbsp;</span><span style=\\\"color: black;\\\">to download the text of the call. If one wanted to set it into the context of the goals, objectives and know the default rules for all elements within Appendix C, the planetary science division, one might download and read&nbsp;\\u201c</span><a href=\\\"https://nspires.nasaprs.com/external/viewrepositorydocument?cmdocumentid=1036500&amp;solicitationId=%7bC92A28D2-9E30-4149-24B7-8A40ED4F564B%7d&amp;viewSolicitationDocument=1\\\" target=\\\"_blank\\\">C.1 Planetary Science Research Program Overview (.pdf)</a><span style=\\\"color: black;\\\">\\u201d from that same page.</span>&nbsp;<span style=\\\"color: black;\\\">While the letters and numbers are different for each element within ROSES (A.10, B.3, etc.) the basic configuration is always the same, e.g., the letter indicates the Science Division (A is Earth Science, B is Heliophysics etc.) and whatever the letter, #1 is always the division overview.&nbsp;In 2025, </span>most program elements will be set up for application via Grants.gov only if requested at least 30 days in advance of the due date. For more on Grants.gov submissions see Section IV(b)v of the ROSES Summary of Solicitation, that may be found at <a href=\\\"https://solicitation.nasaprs.com/ROSES2025\\\" target=\\\"_blank\\\">https://solicitation.nasaprs.com/ROSES2025</a>.</p> \\n<p><span style=\\\"color: black;\\\">&nbsp;</span></p> \\n<p><span style=\\\"color: black;\\\">The National Aeronautics and Space Administration (NASA) Science Mission Directorate (SMD) released its annual omnibus Research Announcement (NRA), Research Opportunities in Space and Earth Sciences (ROSES) \\u2013 2025 (OMB Approval Number 2700-0092, CFDA Number 43.001) on February 21, 2025. In this case \\\"omnibus\\\" means that this NRA has many individual program elements, each with its own due dates and topics. All together these cover the wide range of basic and applied supporting research and technology supported by SMD. </span>Awards will be made as grants, cooperative agreements, or contracts depending on the nature of the work proposed. However, most extramural research awards deriving from ROSES will be grants, and many program elements of ROSES specifically exclude contracts, because contracts would not be appropriate for the nature of the work solicited. Funded Co-Is at government labs will receive inter- or intra-agency transfers<span style=\\\"color: black;\\\">. The typical period of performance for an award is three years, but some programs may allow up to five years and others specify shorter periods. In most cases, organizations of every type, Government and private, for profit and not-for-profit, domestic and foreign (with some caveats), may submit proposals without restriction on teaming arrangements. Tables listing the program elements and due dates (Tables&nbsp;</span><a href=\\\"https://solicitation.nasaprs.com/ROSES2025table2\\\" target=\\\"_blank\\\">2</a><span style=\\\"color: black;\\\">&nbsp;and&nbsp;</span><a href=\\\"https://solicitation.nasaprs.com/ROSES2025table3\\\" target=\\\"_blank\\\">3</a><span style=\\\"color: black;\\\">), a table that provides a very top level summary of proposal contents (</span><a href=\\\"https://nspires.nasaprs.com/external/viewrepositorydocument?cmdocumentid=1041499&amp;solicitationId=%7b2A1D139B-B9C7-CE8C-2E81-223FD08460F9%7d&amp;viewSolicitationDocument=1\\\" target=\\\"_blank\\\">Table 1</a><span style=\\\"color: black;\\\">), and the full text of the ROSES-2025 \\\"Summary of Solicitation\\\", may all be found NSPIRES at&nbsp;</span><a href=\\\"https://solicitation.nasaprs.com/ROSES2025\\\" target=\\\"_blank\\\">https://solicitation.nasaprs.com/ROSES2025</a><span style=\\\"color: black;\\\">.</span></p> \\n<p><span style=\\\"color: black;\\\">&nbsp;</span></p> \\n<p><span style=\\\"color: black;\\\">Frequently asked questions for ROSES are posted at&nbsp;</span><a href=\\\"http://science.nasa.gov/researchers/sara/faqs/\\\" target=\\\"_blank\\\">http://science.nasa.gov/researchers/sara/faqs</a><span style=\\\"color: black;\\\">. Questions concerning specific program elements should be directed to the point(s) of contact for that particular element, who may be found either at the end of the individual program element in the summary table of key information or on the web list of topics and points of contact at:&nbsp;</span><a href=\\\"http://science.nasa.gov/researchers/sara/program-officers-list/\\\" target=\\\"_blank\\\">http://science.nasa.gov/researchers/sara/program-officers-list</a><span style=\\\"color: black;\\\">. </span>General questions concerning ROSES-2025 may be directed to the office of the SMD Deputy Associate Administrator for Research at <a target=\\\"_blank\\\" style=\\\"color: rgb(0, 0, 239);\\\">sara@nasa.gov</a>.</p> \\n<p><span style=\\\"color: black;\\\">&nbsp;</span></p> \\n<p><span style=\\\"color: black;\\\">Not all program elements are known at the time of the release of ROSES. To be informed of new program elements or amendments to this NRA, proposers may subscribe to: (1) The SMD mailing lists (by logging in at&nbsp;</span><a href=\\\"https://urldefense.proofpoint.com/v2/url?u=http-3A__nspires.nasaprs.com_&amp;d=DwMGaQ&amp;c=ApwzowJNAKKw3xye91w7BE1XMRKi2LN9kiMk5Csz9Zk&amp;r=2ixpkCCnNce056JoBL-BGFZPDe7JBWz4wpylXLQCS6s&amp;m=50Vi0oUMclJgXKW1hUTR82Av51i56o31RG3n3UC9Cqg&amp;s=U9bsGUTHAvBTDjSAoG5nnw63Lc9engudohcIe4r-h8U&amp;e=\\\" target=\\\"_blank\\\">http://nspires.nasaprs.com</a><span style=\\\"color: black;\\\"> and checking the appropriate boxes under \\\"Account Management\\\" and \\\"Email Subscriptions\\\"), (2) The ROSES-2025 blog feed for amendments, clarifications, and corrections to at&nbsp;</span><a href=\\\"https://science.nasa.gov/researchers/solicitations/roses-2025/\\\" target=\\\"_blank\\\">https://science.nasa.gov/researchers/solicitations/roses-2025/</a>,<span style=\\\"color: black;\\\"> and (3) The ROSES-2025 due date Google calendars (one for each science division). Instructions are at&nbsp;</span><a href=\\\"https://science.nasa.gov/researchers/sara/library-and-useful-links\\\" target=\\\"_blank\\\">https://science.nasa.gov/researchers/sara/library-and-useful-links</a><span style=\\\"color: black;\\\">&nbsp;(link from the words due date calendar).&nbsp;</span></p>\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.802244Z","level":"info","event":"    \"updated_at\": \"2026-08-31T13:44:42+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.804202Z","level":"info","event":"    \"version_number\": 1","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.806289Z","level":"info","event":"  },","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.808367Z","level":"info","event":"  \"tagline\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.810257Z","level":"info","event":"  \"top_level_agency_code\": \"NASA\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.812116Z","level":"info","event":"  \"top_level_agency_name\": \"National Aeronautics and Space Administration\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.814029Z","level":"info","event":"}","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.815952Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.817976Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.820703Z","level":"info","event":"OPPORTUNITY 5 of 6","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.823004Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.825243Z","level":"info","event":"{","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.827273Z","level":"info","event":"  \"agency\": \"DOS-SAU\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.829352Z","level":"info","event":"  \"agency_code\": \"DOS-SAU\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.831419Z","level":"info","event":"  \"agency_name\": \"U.S. Mission to Saudi Arabia\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.833413Z","level":"info","event":"  \"category\": \"discretionary\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.835644Z","level":"info","event":"  \"category_explanation\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.838078Z","level":"info","event":"  \"legacy_opportunity_id\": 363744,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.877542Z","level":"info","event":"  \"opportunity_assistance_listings\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.879069Z","level":"info","event":"    {","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.880492Z","level":"info","event":"      \"assistance_listing_number\": \"19.040\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.881794Z","level":"info","event":"      \"program_title\": \"Public Diplomacy Programs\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.883375Z","level":"info","event":"    }","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.884706Z","level":"info","event":"  ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.885833Z","level":"info","event":"  \"opportunity_id\": \"53cfdc5b-580d-4d79-92a7-75a3cf7a9a39\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.887041Z","level":"info","event":"  \"opportunity_number\": \"DOS-SAU-2605-PD\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.888622Z","level":"info","event":"  \"opportunity_status\": \"posted\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.890370Z","level":"info","event":"  \"opportunity_title\": \"U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.891931Z","level":"info","event":"  \"purpose_statement\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.893619Z","level":"info","event":"  \"summary\": {","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.895484Z","level":"info","event":"    \"additional_info_url\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.896738Z","level":"info","event":"    \"additional_info_url_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.898062Z","level":"info","event":"    \"agency_contact_description\": \"Public Diplomacy Section\\r\\nU.S. Embassy, Riyadh\\r\\nPhone 00966118354000\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.899438Z","level":"info","event":"    \"agency_email_address\": \"RiyadhGrants@state.gov\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.900693Z","level":"info","event":"    \"agency_email_address_description\": \"For Inquiries\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.902021Z","level":"info","event":"    \"applicant_eligibility_description\": \"\\u25cf\\tNot-for-profit organizations, including civil society/non-governmental organizations \\u25cf\\tPublic and private educational institutions\\u25cf\\tPublic International Organizations and Governmental institutions\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.903399Z","level":"info","event":"    \"applicant_types\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.904745Z","level":"info","event":"      \"other\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.906105Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.907456Z","level":"info","event":"    \"archive_date\": \"2026-10-14\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.908776Z","level":"info","event":"    \"award_ceiling\": 900000,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.910089Z","level":"info","event":"    \"award_floor\": 600000,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.911609Z","level":"info","event":"    \"close_date\": \"2026-09-14\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.913008Z","level":"info","event":"    \"close_date_description\": \"\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.914738Z","level":"info","event":"    \"created_at\": \"2026-08-31T12:47:27+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.916246Z","level":"info","event":"    \"estimated_total_program_funding\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.917755Z","level":"info","event":"    \"expected_number_of_awards\": 1,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.919392Z","level":"info","event":"    \"fiscal_year\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.920915Z","level":"info","event":"    \"forecasted_award_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.922591Z","level":"info","event":"    \"forecasted_close_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.924239Z","level":"info","event":"    \"forecasted_close_date_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.925882Z","level":"info","event":"    \"forecasted_post_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.927486Z","level":"info","event":"    \"forecasted_project_start_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.929157Z","level":"info","event":"    \"funding_categories\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.930768Z","level":"info","event":"      \"other\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.932265Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.933646Z","level":"info","event":"    \"funding_category_description\": \"Public Diplomacy\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.935134Z","level":"info","event":"    \"funding_instruments\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.937106Z","level":"info","event":"      \"cooperative_agreement\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.938648Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.939952Z","level":"info","event":"    \"is_cost_sharing\": false,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.941319Z","level":"info","event":"    \"is_forecast\": false,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.942496Z","level":"info","event":"    \"post_date\": \"2026-08-31\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.943845Z","level":"info","event":"    \"summary_description\": \"<p><span style=\\\"color: black;\\\">The U.S. Embassy Riyadh Public Diplomacy Section announces an open competition for organizations to design and implement the U.S.\\u2013Saudi AI Research Commercialization Accelerator (ReCAP), a 12-month initiative connecting Saudi Arabia's expanding artificial intelligence innovation ecosystem with the United States' world-leading technology, investment, and commercialization ecosystem. The program will source and evaluate 20\\u201330 Saudi-developed AI technologies, advance approximately 10 of the most promising through applied, U.S.-led commercialization programming and Innovation Labs, connect participants to the American AI ecosystem through an intensive U.S. study tour, and culminate in a high-level U.S.\\u2013Saudi AI Research Commercialization Summit. The program advances U.S. foreign policy priorities by positioning the United States as Saudi Arabia's preferred partner for AI innovation and commercialization, strengthening durable relationships between Saudi innovators and American technology, investment, and commercialization networks.</span></p>\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.945484Z","level":"info","event":"    \"updated_at\": \"2026-08-31T12:48:18+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.947080Z","level":"info","event":"    \"version_number\": 1","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.948568Z","level":"info","event":"  },","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.949932Z","level":"info","event":"  \"tagline\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.951191Z","level":"info","event":"  \"top_level_agency_code\": \"DOS\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.952585Z","level":"info","event":"  \"top_level_agency_name\": \"Department of State\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.954053Z","level":"info","event":"}","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.955456Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.956929Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.958418Z","level":"info","event":"OPPORTUNITY 6 of 6","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.960261Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.962027Z","level":"info","event":"{","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.963647Z","level":"info","event":"  \"agency\": \"DOS-IRQ\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.965342Z","level":"info","event":"  \"agency_code\": \"DOS-IRQ\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.966990Z","level":"info","event":"  \"agency_name\": \"U.S. Mission to Iraq\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.968726Z","level":"info","event":"  \"category\": \"discretionary\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.970612Z","level":"info","event":"  \"category_explanation\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.972271Z","level":"info","event":"  \"legacy_opportunity_id\": 363743,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.973813Z","level":"info","event":"  \"opportunity_assistance_listings\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.975210Z","level":"info","event":"    {","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.976926Z","level":"info","event":"      \"assistance_listing_number\": \"19.021\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.978325Z","level":"info","event":"      \"program_title\": \"Investing in People in The Middle East and North Africa\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.979613Z","level":"info","event":"    }","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.981195Z","level":"info","event":"  ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.983053Z","level":"info","event":"  \"opportunity_id\": \"84e606da-6c16-4377-a6cc-63d02a2b179a\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.985036Z","level":"info","event":"  \"opportunity_number\": \"OFOP0003436\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.987148Z","level":"info","event":"  \"opportunity_status\": \"posted\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.989431Z","level":"info","event":"  \"opportunity_title\": \"English Access Microscholarship Program for Central and Southern Iraq\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.991900Z","level":"info","event":"  \"purpose_statement\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.993936Z","level":"info","event":"  \"summary\": {","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.996078Z","level":"info","event":"    \"additional_info_url\": \"https://mygrants.servicenowservices.com/mygrants?id=mygrants_form&table=x_g_usd4_o_grant_funding_opportunity&sys_id=9063a232931a4f10d114b7986cba10f1&view=Default\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.997995Z","level":"info","event":"    \"additional_info_url_description\": \"Link to Opportunity in MyGrants\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.999768Z","level":"info","event":"    \"agency_contact_description\": \"baghdadpdgrants@state.gov\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.001531Z","level":"info","event":"    \"agency_email_address\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.003076Z","level":"info","event":"    \"agency_email_address_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.005118Z","level":"info","event":"    \"applicant_eligibility_description\": \"\\u25cf\\tUS and foreign not-for-profit organizations, including think tanks and civil society/non-governmental organizations \\n\\u25cf\\tPublic and private educational institutions\\n\\u25cf\\tPublic International Organizations and Governmental institutions.\\n\\u25cf\\tHave demonstrated experience developing and administering similar programs. \\n\\u25cf\\tHave the capacity to operate in Iraq and/or have active partnerships with organization(s) operating in Iraq.\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.006969Z","level":"info","event":"    \"applicant_types\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.008636Z","level":"info","event":"      \"other\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.010369Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.012044Z","level":"info","event":"    \"archive_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.013780Z","level":"info","event":"    \"award_ceiling\": 500000,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.015537Z","level":"info","event":"    \"award_floor\": 450000,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.017224Z","level":"info","event":"    \"close_date\": \"2026-09-03\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.018874Z","level":"info","event":"    \"close_date_description\": \"\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.020550Z","level":"info","event":"    \"created_at\": \"2026-08-30T12:16:53+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.022551Z","level":"info","event":"    \"estimated_total_program_funding\": 500000,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.024274Z","level":"info","event":"    \"expected_number_of_awards\": 1,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.026018Z","level":"info","event":"    \"fiscal_year\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.027712Z","level":"info","event":"    \"forecasted_award_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.029489Z","level":"info","event":"    \"forecasted_close_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.031199Z","level":"info","event":"    \"forecasted_close_date_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.033000Z","level":"info","event":"    \"forecasted_post_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.034771Z","level":"info","event":"    \"forecasted_project_start_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.036433Z","level":"info","event":"    \"funding_categories\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.038120Z","level":"info","event":"      \"education\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.039846Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.041487Z","level":"info","event":"    \"funding_category_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.043106Z","level":"info","event":"    \"funding_instruments\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.044736Z","level":"info","event":"      \"grant\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.046367Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.048010Z","level":"info","event":"    \"is_cost_sharing\": false,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.049633Z","level":"info","event":"    \"is_forecast\": false,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.051427Z","level":"info","event":"    \"post_date\": \"2026-08-30\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.052944Z","level":"info","event":"    \"summary_description\": \"The U.S. Embassy Baghdad Public Diplomacy Section (PDS) announces an open competition to implement English Access Microscholarship Program for Central and Southern Iraq. The Public Diplomacy Section seeks to provide Iraqi youth with educational opportunities through English-language instruction in accordance with Mission Iraq goals. English language skills are an important tool for Iraqi youth seeking access to higher education, employment, exchange programs, and broader engagement with the global community.\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.054920Z","level":"info","event":"    \"updated_at\": \"2026-08-30T12:16:53+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.056798Z","level":"info","event":"    \"version_number\": 1","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.058472Z","level":"info","event":"  },","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.060414Z","level":"info","event":"  \"tagline\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.063139Z","level":"info","event":"  \"top_level_agency_code\": \"DOS\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.064958Z","level":"info","event":"  \"top_level_agency_name\": \"Department of State\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.066619Z","level":"info","event":"}","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.068305Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.070098Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:26.072096Z","level":"info","event":"✅ Saved 6 records to: bronze/grants_gov/ingest_date=2026-08-31/opportunities.json","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:58:25.877828Z","level":"info","event":"::endgroup::","dag_id":"orchestrate","run_id":"scheduled__2026-08-31T02:00:00+00:00","ti_id":"01a05853-d925-76af-8968-2aad44bac059","task_id":"ingest_cdc","map_index":-1,"try_number":1,"logger":"task","filename":"task_runner.py","lineno":2379}
