@@ -1,0 +1,149 @@
+{"timestamp":"2026-08-31T14:32:40.985460Z","level":"info","event":"::group::Pre Execute","logger":"task","filename":"task_runner.py","lineno":2412}
+{"timestamp":"2026-08-31T14:32:44.459686Z","level":"info","event":"DAG bundles loaded: dags-folder","try_number":1,"dag_id":"orchestrate","task_id":"ingest_cdc","run_id":"manual__2026-08-31T14:32:40.312195+00:00","map_index":-1,"ti_id":"01a0583c-94a0-7594-83f0-79d22d61950a","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":304}
+{"timestamp":"2026-08-31T14:32:44.461654Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrate.py","try_number":1,"dag_id":"orchestrate","task_id":"ingest_cdc","run_id":"manual__2026-08-31T14:32:40.312195+00:00","map_index":-1,"ti_id":"01a0583c-94a0-7594-83f0-79d22d61950a","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":460}
+{"timestamp":"2026-08-31T14:32:46.849556Z","level":"warning","event":"urllib3 (2.7.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.7) doesn't match a supported version!","category":"UserWarning","filename":"/home/airflow/.local/lib/python3.13/site-packages/snowflake/connector/vendored/requests/__init__.py","lineno":113,"try_number":1,"dag_id":"orchestrate","task_id":"ingest_cdc","run_id":"manual__2026-08-31T14:32:40.312195+00:00","map_index":-1,"ti_id":"01a0583c-94a0-7594-83f0-79d22d61950a","logger":"py.warnings"}
+{"timestamp":"2026-08-31T14:32:46.850456Z","level":"info","event":"Worker startup parse complete","bundle_name":"dags-folder","bundle_version":null,"dag_file":"orchestrate.py","dag_id":"orchestrate","bundle_prepare_ms":2,"dag_file_parse_ms":2388,"try_number":1,"task_id":"ingest_cdc","run_id":"manual__2026-08-31T14:32:40.312195+00:00","map_index":-1,"ti_id":"01a0583c-94a0-7594-83f0-79d22d61950a","logger":"task","filename":"task_runner.py","lineno":1073}
+{"timestamp":"2026-08-31T14:32:46.876251Z","level":"info","event":"::endgroup::","try_number":1,"dag_id":"orchestrate","task_id":"ingest_cdc","run_id":"manual__2026-08-31T14:32:40.312195+00:00","map_index":-1,"ti_id":"01a0583c-94a0-7594-83f0-79d22d61950a","logger":"task","filename":"task_runner.py","lineno":2232}
+{"timestamp":"2026-08-31T14:32:47.042946Z","level":"info","event":"Status: 200","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.044322Z","level":"info","event":"Opportunities posted since 2026-08-30: 2","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.045330Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.046470Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.047771Z","level":"info","event":"OPPORTUNITY 1 of 2","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.048717Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.049501Z","level":"info","event":"{","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.050541Z","level":"info","event":"  \"agency\": \"DOS-SAU\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.051313Z","level":"info","event":"  \"agency_code\": \"DOS-SAU\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.052254Z","level":"info","event":"  \"agency_name\": \"U.S. Mission to Saudi Arabia\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.053271Z","level":"info","event":"  \"category\": \"discretionary\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.054146Z","level":"info","event":"  \"category_explanation\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.055063Z","level":"info","event":"  \"legacy_opportunity_id\": 363744,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.055918Z","level":"info","event":"  \"opportunity_assistance_listings\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.057013Z","level":"info","event":"    {","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.057983Z","level":"info","event":"      \"assistance_listing_number\": \"19.040\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.058828Z","level":"info","event":"      \"program_title\": \"Public Diplomacy Programs\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.059696Z","level":"info","event":"    }","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.060795Z","level":"info","event":"  ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.062055Z","level":"info","event":"  \"opportunity_id\": \"53cfdc5b-580d-4d79-92a7-75a3cf7a9a39\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.062984Z","level":"info","event":"  \"opportunity_number\": \"DOS-SAU-2605-PD\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.063862Z","level":"info","event":"  \"opportunity_status\": \"posted\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.064572Z","level":"info","event":"  \"opportunity_title\": \"U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.065359Z","level":"info","event":"  \"purpose_statement\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.066253Z","level":"info","event":"  \"summary\": {","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.067105Z","level":"info","event":"    \"additional_info_url\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.068215Z","level":"info","event":"    \"additional_info_url_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.069503Z","level":"info","event":"    \"agency_contact_description\": \"Public Diplomacy Section\\r\\nU.S. Embassy, Riyadh\\r\\nPhone 00966118354000\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.070503Z","level":"info","event":"    \"agency_email_address\": \"RiyadhGrants@state.gov\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.071462Z","level":"info","event":"    \"agency_email_address_description\": \"For Inquiries\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.072358Z","level":"info","event":"    \"applicant_eligibility_description\": \"\\u25cf\\tNot-for-profit organizations, including civil society/non-governmental organizations \\u25cf\\tPublic and private educational institutions\\u25cf\\tPublic International Organizations and Governmental institutions\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.073385Z","level":"info","event":"    \"applicant_types\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.074436Z","level":"info","event":"      \"other\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.075471Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.076266Z","level":"info","event":"    \"archive_date\": \"2026-10-14\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.077072Z","level":"info","event":"    \"award_ceiling\": 900000,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.078050Z","level":"info","event":"    \"award_floor\": 600000,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.079019Z","level":"info","event":"    \"close_date\": \"2026-09-14\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.079990Z","level":"info","event":"    \"close_date_description\": \"\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.081016Z","level":"info","event":"    \"created_at\": \"2026-08-31T12:47:27+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.081718Z","level":"info","event":"    \"estimated_total_program_funding\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.082522Z","level":"info","event":"    \"expected_number_of_awards\": 1,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.084141Z","level":"info","event":"    \"fiscal_year\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.085292Z","level":"info","event":"    \"forecasted_award_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.086070Z","level":"info","event":"    \"forecasted_close_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.086776Z","level":"info","event":"    \"forecasted_close_date_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.087513Z","level":"info","event":"    \"forecasted_post_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.088187Z","level":"info","event":"    \"forecasted_project_start_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.089259Z","level":"info","event":"    \"funding_categories\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.089982Z","level":"info","event":"      \"other\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.090773Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.091533Z","level":"info","event":"    \"funding_category_description\": \"Public Diplomacy\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.093170Z","level":"info","event":"    \"funding_instruments\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.094136Z","level":"info","event":"      \"cooperative_agreement\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.094956Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.095680Z","level":"info","event":"    \"is_cost_sharing\": false,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.096443Z","level":"info","event":"    \"is_forecast\": false,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.097266Z","level":"info","event":"    \"post_date\": \"2026-08-31\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.098108Z","level":"info","event":"    \"summary_description\": \"<p><span style=\\\"color: black;\\\">The U.S. Embassy Riyadh Public Diplomacy Section announces an open competition for organizations to design and implement the U.S.\\u2013Saudi AI Research Commercialization Accelerator (ReCAP), a 12-month initiative connecting Saudi Arabia's expanding artificial intelligence innovation ecosystem with the United States' world-leading technology, investment, and commercialization ecosystem. The program will source and evaluate 20\\u201330 Saudi-developed AI technologies, advance approximately 10 of the most promising through applied, U.S.-led commercialization programming and Innovation Labs, connect participants to the American AI ecosystem through an intensive U.S. study tour, and culminate in a high-level U.S.\\u2013Saudi AI Research Commercialization Summit. The program advances U.S. foreign policy priorities by positioning the United States as Saudi Arabia's preferred partner for AI innovation and commercialization, strengthening durable relationships between Saudi innovators and American technology, investment, and commercialization networks.</span></p>\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.098883Z","level":"info","event":"    \"updated_at\": \"2026-08-31T12:48:18+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.099751Z","level":"info","event":"    \"version_number\": 1","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.100603Z","level":"info","event":"  },","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.101513Z","level":"info","event":"  \"tagline\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.102366Z","level":"info","event":"  \"top_level_agency_code\": \"DOS\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.103295Z","level":"info","event":"  \"top_level_agency_name\": \"Department of State\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.104165Z","level":"info","event":"}","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.105188Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.105853Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.106524Z","level":"info","event":"OPPORTUNITY 2 of 2","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.107526Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.108245Z","level":"info","event":"{","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.108955Z","level":"info","event":"  \"agency\": \"DOS-IRQ\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.109771Z","level":"info","event":"  \"agency_code\": \"DOS-IRQ\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.110644Z","level":"info","event":"  \"agency_name\": \"U.S. Mission to Iraq\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.111457Z","level":"info","event":"  \"category\": \"discretionary\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.112193Z","level":"info","event":"  \"category_explanation\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.113117Z","level":"info","event":"  \"legacy_opportunity_id\": 363743,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.114014Z","level":"info","event":"  \"opportunity_assistance_listings\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.114772Z","level":"info","event":"    {","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.115438Z","level":"info","event":"      \"assistance_listing_number\": \"19.021\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.116241Z","level":"info","event":"      \"program_title\": \"Investing in People in The Middle East and North Africa\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.117054Z","level":"info","event":"    }","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.117763Z","level":"info","event":"  ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.118674Z","level":"info","event":"  \"opportunity_id\": \"84e606da-6c16-4377-a6cc-63d02a2b179a\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.119454Z","level":"info","event":"  \"opportunity_number\": \"OFOP0003436\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.120302Z","level":"info","event":"  \"opportunity_status\": \"posted\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.121076Z","level":"info","event":"  \"opportunity_title\": \"English Access Microscholarship Program for Central and Southern Iraq\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.121986Z","level":"info","event":"  \"purpose_statement\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.122882Z","level":"info","event":"  \"summary\": {","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.123790Z","level":"info","event":"    \"additional_info_url\": \"https://mygrants.servicenowservices.com/mygrants?id=mygrants_form&table=x_g_usd4_o_grant_funding_opportunity&sys_id=9063a232931a4f10d114b7986cba10f1&view=Default\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.124669Z","level":"info","event":"    \"additional_info_url_description\": \"Link to Opportunity in MyGrants\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.125511Z","level":"info","event":"    \"agency_contact_description\": \"baghdadpdgrants@state.gov\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.126354Z","level":"info","event":"    \"agency_email_address\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.127388Z","level":"info","event":"    \"agency_email_address_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.128284Z","level":"info","event":"    \"applicant_eligibility_description\": \"\\u25cf\\tUS and foreign not-for-profit organizations, including think tanks and civil society/non-governmental organizations \\n\\u25cf\\tPublic and private educational institutions\\n\\u25cf\\tPublic International Organizations and Governmental institutions.\\n\\u25cf\\tHave demonstrated experience developing and administering similar programs. \\n\\u25cf\\tHave the capacity to operate in Iraq and/or have active partnerships with organization(s) operating in Iraq.\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.129204Z","level":"info","event":"    \"applicant_types\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.130073Z","level":"info","event":"      \"other\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.130901Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.131712Z","level":"info","event":"    \"archive_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.132559Z","level":"info","event":"    \"award_ceiling\": 500000,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.133463Z","level":"info","event":"    \"award_floor\": 450000,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.134191Z","level":"info","event":"    \"close_date\": \"2026-09-03\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.135101Z","level":"info","event":"    \"close_date_description\": \"\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.136136Z","level":"info","event":"    \"created_at\": \"2026-08-30T12:16:53+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.137043Z","level":"info","event":"    \"estimated_total_program_funding\": 500000,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.137828Z","level":"info","event":"    \"expected_number_of_awards\": 1,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.138793Z","level":"info","event":"    \"fiscal_year\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.139714Z","level":"info","event":"    \"forecasted_award_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.140510Z","level":"info","event":"    \"forecasted_close_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.141148Z","level":"info","event":"    \"forecasted_close_date_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.142103Z","level":"info","event":"    \"forecasted_post_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.143137Z","level":"info","event":"    \"forecasted_project_start_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.144491Z","level":"info","event":"    \"funding_categories\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.145328Z","level":"info","event":"      \"education\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.146221Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.147146Z","level":"info","event":"    \"funding_category_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.147897Z","level":"info","event":"    \"funding_instruments\": [","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.148742Z","level":"info","event":"      \"grant\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.149785Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.150762Z","level":"info","event":"    \"is_cost_sharing\": false,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.151658Z","level":"info","event":"    \"is_forecast\": false,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.152554Z","level":"info","event":"    \"post_date\": \"2026-08-30\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.153499Z","level":"info","event":"    \"summary_description\": \"The U.S. Embassy Baghdad Public Diplomacy Section (PDS) announces an open competition to implement English Access Microscholarship Program for Central and Southern Iraq. The Public Diplomacy Section seeks to provide Iraqi youth with educational opportunities through English-language instruction in accordance with Mission Iraq goals. English language skills are an important tool for Iraqi youth seeking access to higher education, employment, exchange programs, and broader engagement with the global community.\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.154370Z","level":"info","event":"    \"updated_at\": \"2026-08-30T12:16:53+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.155365Z","level":"info","event":"    \"version_number\": 1","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.156149Z","level":"info","event":"  },","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.157080Z","level":"info","event":"  \"tagline\": null,","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.157959Z","level":"info","event":"  \"top_level_agency_code\": \"DOS\",","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.159174Z","level":"info","event":"  \"top_level_agency_name\": \"Department of State\"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.160182Z","level":"info","event":"}","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.161009Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.047038Z","level":"info","event":"Request URL: 'https://grantproject.dfs.core.windows.net/bronze/grants_gov/ingest_date%3D2026-08-31/opportunities.json?resource=REDACTED'\nRequest method: 'PUT'\nRequest headers:\n    'x-ms-version': 'REDACTED'\n    'Accept': 'application/json'\n    'User-Agent': 'azsdk-python-storage-dfs/12.25.0 Python/3.13.14 (Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.36)'\n    'x-ms-date': 'REDACTED'\n    'x-ms-client-request-id': 'd5ec6c5e-a548-11f1-8930-fa764ce48bfb'\n    'Authorization': 'REDACTED'\nNo body was attached to the request","logger":"azure.core.pipeline.policies.http_logging_policy","try_number":1,"dag_id":"orchestrate","task_id":"ingest_cdc","run_id":"manual__2026-08-31T14:32:40.312195+00:00","map_index":-1,"ti_id":"01a0583c-94a0-7594-83f0-79d22d61950a","filename":"_universal.py","lineno":535}
+{"timestamp":"2026-08-31T14:32:47.211046Z","level":"info","event":"Response status: 201\nResponse headers:\n    'Last-Modified': 'Mon, 31 Aug 2026 14:32:47 GMT'\n    'ETag': '\"0x8DF076CBA3D9AAC\"'\n    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'\n    'x-ms-request-server-encrypted': 'REDACTED'\n    'x-ms-request-id': '28ea02ba-101f-0082-3855-394c32000000'\n    'x-ms-version': 'REDACTED'\n    'x-ms-client-request-id': 'd5ec6c5e-a548-11f1-8930-fa764ce48bfb'\n    'Date': 'Mon, 31 Aug 2026 14:32:46 GMT'\n    'Content-Length': '0'","logger":"azure.core.pipeline.policies.http_logging_policy","try_number":1,"dag_id":"orchestrate","task_id":"ingest_cdc","run_id":"manual__2026-08-31T14:32:40.312195+00:00","map_index":-1,"ti_id":"01a0583c-94a0-7594-83f0-79d22d61950a","filename":"_universal.py","lineno":581}
+{"timestamp":"2026-08-31T14:32:47.212068Z","level":"info","event":"Request URL: 'https://grantproject.dfs.core.windows.net/bronze/grants_gov/ingest_date%3D2026-08-31/opportunities.json?action=REDACTED&position=REDACTED'\nRequest method: 'PATCH'\nRequest headers:\n    'Content-Length': '5922'\n    'x-ms-version': 'REDACTED'\n    'Content-Type': 'application/json'\n    'Accept': 'application/json'\n    'User-Agent': 'azsdk-python-storage-dfs/12.25.0 Python/3.13.14 (Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.36)'\n    'x-ms-date': 'REDACTED'\n    'x-ms-client-request-id': 'd605a340-a548-11f1-8930-fa764ce48bfb'\n    'Authorization': 'REDACTED'\nA body is sent with the request","logger":"azure.core.pipeline.policies.http_logging_policy","try_number":1,"dag_id":"orchestrate","task_id":"ingest_cdc","run_id":"manual__2026-08-31T14:32:40.312195+00:00","map_index":-1,"ti_id":"01a0583c-94a0-7594-83f0-79d22d61950a","filename":"_universal.py","lineno":532}
+{"timestamp":"2026-08-31T14:32:47.240670Z","level":"info","event":"Response status: 202\nResponse headers:\n    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'\n    'x-ms-request-server-encrypted': 'REDACTED'\n    'x-ms-request-id': '28ea0309-101f-0082-3a55-394c32000000'\n    'x-ms-version': 'REDACTED'\n    'x-ms-client-request-id': 'd605a340-a548-11f1-8930-fa764ce48bfb'\n    'Date': 'Mon, 31 Aug 2026 14:32:46 GMT'\n    'Content-Length': '0'","logger":"azure.core.pipeline.policies.http_logging_policy","try_number":1,"dag_id":"orchestrate","task_id":"ingest_cdc","run_id":"manual__2026-08-31T14:32:40.312195+00:00","map_index":-1,"ti_id":"01a0583c-94a0-7594-83f0-79d22d61950a","filename":"_universal.py","lineno":581}
+{"timestamp":"2026-08-31T14:32:47.241442Z","level":"info","event":"Request URL: 'https://grantproject.dfs.core.windows.net/bronze/grants_gov/ingest_date%3D2026-08-31/opportunities.json?action=REDACTED&position=REDACTED&close=REDACTED'\nRequest method: 'PATCH'\nRequest headers:\n    'If-Match': '\"0x8DF076CBA3D9AAC\"'\n    'x-ms-version': 'REDACTED'\n    'Accept': 'application/json'\n    'User-Agent': 'azsdk-python-storage-dfs/12.25.0 Python/3.13.14 (Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.36)'\n    'x-ms-date': 'REDACTED'\n    'x-ms-client-request-id': 'd60a2104-a548-11f1-8930-fa764ce48bfb'\n    'Authorization': 'REDACTED'\nNo body was attached to the request","logger":"azure.core.pipeline.policies.http_logging_policy","try_number":1,"dag_id":"orchestrate","task_id":"ingest_cdc","run_id":"manual__2026-08-31T14:32:40.312195+00:00","map_index":-1,"ti_id":"01a0583c-94a0-7594-83f0-79d22d61950a","filename":"_universal.py","lineno":535}
+{"timestamp":"2026-08-31T14:32:47.294909Z","level":"info","event":"Response status: 200\nResponse headers:\n    'Last-Modified': 'Mon, 31 Aug 2026 14:32:47 GMT'\n    'ETag': '\"0x8DF076CBA4A9C4C\"'\n    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'\n    'x-ms-request-server-encrypted': 'REDACTED'\n    'x-ms-request-id': '28ea030a-101f-0082-3b55-394c32000000'\n    'x-ms-version': 'REDACTED'\n    'x-ms-client-request-id': 'd60a2104-a548-11f1-8930-fa764ce48bfb'\n    'Date': 'Mon, 31 Aug 2026 14:32:46 GMT'\n    'Content-Length': '0'","logger":"azure.core.pipeline.policies.http_logging_policy","try_number":1,"dag_id":"orchestrate","task_id":"ingest_cdc","run_id":"manual__2026-08-31T14:32:40.312195+00:00","map_index":-1,"ti_id":"01a0583c-94a0-7594-83f0-79d22d61950a","filename":"_universal.py","lineno":581}
+{"timestamp":"2026-08-31T14:32:47.296293Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.297346Z","level":"info","event":"✅ Saved 2 records to: bronze/grants_gov/ingest_date=2026-08-31/opportunities.json","logger":"task.stdout"}
+{"timestamp":"2026-08-31T14:32:47.296509Z","level":"info","event":"Done. Returned value was: 2","try_number":1,"dag_id":"orchestrate","task_id":"ingest_cdc","run_id":"manual__2026-08-31T14:32:40.312195+00:00","map_index":-1,"ti_id":"01a0583c-94a0-7594-83f0-79d22d61950a","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":233}
+{"timestamp":"2026-08-31T14:32:47.296632Z","level":"info","event":"::group::Post Execute","try_number":1,"dag_id":"orchestrate","task_id":"ingest_cdc","run_id":"manual__2026-08-31T14:32:40.312195+00:00","map_index":-1,"ti_id":"01a0583c-94a0-7594-83f0-79d22d61950a","logger":"task","filename":"task_runner.py","lineno":1580}
+{"timestamp":"2026-08-31T14:32:47.296762Z","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('01a0583c-94a0-7594-83f0-79d22d61950a'), task_id='ingest_cdc', dag_id='orchestrate', run_id='manual__2026-08-31T14:32:40.312195+00:00', try_number=1, dag_version_id=UUID('01a0582b-2532-7b7c-aa6b-bce7e5ef45ca'), map_index=-1, hostname='89db77d81350', context_carrier={'traceparent': '00-af307ec17f424e45177c28fe6b385ddc-3b619ea56c196ca2-00'}, queue='default', task=<Task(_PythonDecoratedOperator): ingest_cdc>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2026, 8, 31, 14, 32, 44, 446675, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None, sentry_integration='sentry_sdk.integrations.celery.CeleryIntegration')","try_number":1,"dag_id":"orchestrate","task_id":"ingest_cdc","run_id":"manual__2026-08-31T14:32:40.312195+00:00","map_index":-1,"ti_id":"01a0583c-94a0-7594-83f0-79d22d61950a","logger":"task","filename":"task_runner.py","lineno":2280}
+{"timestamp":"2026-08-31T14:32:47.341313Z","level":"info","event":"::endgroup::","try_number":1,"dag_id":"orchestrate","task_id":"ingest_cdc","run_id":"manual__2026-08-31T14:32:40.312195+00:00","map_index":-1,"ti_id":"01a0583c-94a0-7594-83f0-79d22d61950a","logger":"task","filename":"task_runner.py","lineno":2379}

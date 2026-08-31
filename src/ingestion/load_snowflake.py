@@ -7,7 +7,6 @@ from pathlib import Path
 import snowflake.connector
 from dotenv import load_dotenv
 
-SQL_PATH = Path(__file__).parent / "test.sql"  # resolved relative to this file, not the cwd
 
 
 @dataclass(frozen=True)
@@ -30,10 +29,11 @@ class SnowflakeConfig:
         )
 
 
-def load_opportunities_to_snowflake(sql_path: Path = SQL_PATH) -> list:
+def load_opportunities_to_snowflake() -> list:
     """Run the COPY INTO statement that loads staged ADLS files into bronze_grants. Entry point for DAG tasks."""
+    SQL_PATH = Path(__file__).parent / "test.sql"  # resolved relative to this file, not the cwd
     config = SnowflakeConfig.from_env()
-    sql = sql_path.read_text()
+    sql = SQL_PATH.read_text()
 
     conn = snowflake.connector.connect(
         account=config.account,

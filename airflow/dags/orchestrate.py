@@ -1,5 +1,7 @@
 from airflow.sdk import dag, task
+from airflow.providers.standard.operators.bash import BashOperator
 from ingestion.ingest import ingest_opportunities
+from ingestion.load_snowflake import load_opportunities_to_snowflake
 
 @dag
 def orchestrate():
@@ -7,15 +9,47 @@ def orchestrate():
     def ingest_cdc():
         return ingest_opportunities()
     
-    # @task.bash
-    # def clean_target():
-    #     return "rm -rf /opt/airflow/walmart_project/target && rm -rf /opt/airflow/walmart_project/logs"
+    @task
+    def load_to_snowflake():
+        return load_opportunities_to_snowflake()
     
     @task.bash
     def source_freshness():
         return "cd /opt/airflow/dbt_transform/grant && dbt source freshness"
+    
+    silver_grant = BashOperator(
+    task_id='silver_grant',
+    cwd='/opt/airflow/dbt_transform/grant',
+    bash_command='dbt run --select silver_grant'
+    )
+    
+    gold_ephermeral = BashOperator(
+        task_id='gold_ephermeral',
+        cwd='/opt/airflow/dbt_transform/grant',
+        bash_command='dbt run --select gold/ephermeral'
+    )
+    
+    gold_dimensions_opps = BashOperator(
+        task_id='gold_dimensions_opps',
+        cwd='/opt/airflow/dbt_transform/grant',
+        bash_command='dbt snapshot'
+    )
+    
+    gold_dimensions_agency = BashOperator(
+        task_id='gold_dimensions_agency',
+        cwd='/opt/airflow/dbt_transform/grant',
+        bash_command='dbt snapshot'
+    )
+    
+    gold_facts = BashOperator(
+        task_id='gold_facts',
+        cwd='/opt/airflow/dbt_transform/grant',
+        bash_command='dbt run --select gold/fact'
+    )
 
-    ingest_cdc() >> source_freshness()
+    
+    
+    ingest_cdc() >> load_to_snowflake() >> source_freshness() >> silver_grant >> gold_ephermeral >> gold_dimensions_opps >> gold_dimensions_agency >> gold_facts
     
 orchestrate_dag = orchestrate()
 
