@@ -32,7 +32,13 @@ def orchestrate():
     gold_ephermeral = BashOperator(
         task_id='gold_ephermeral',
         cwd='/opt/airflow/dbt_transform/grant',
-        bash_command='dbt run --select gold/ephermeral'
+        bash_command='dbt run --select eph_opps'
+    )
+    
+    gold_dimensions_agency = BashOperator(
+        task_id='gold_dimensions_agency',
+        cwd='/opt/airflow/dbt_transform/grant',
+        bash_command='dbt run --select dim_agency'
     )
     
     gold_dimensions_opps = BashOperator(
@@ -41,21 +47,16 @@ def orchestrate():
         bash_command='dbt snapshot'
     )
     
-    gold_dimensions_agency = BashOperator(
-        task_id='gold_dimensions_agency',
-        cwd='/opt/airflow/dbt_transform/grant',
-        bash_command='dbt snapshot'
-    )
-    
+  
     gold_facts = BashOperator(
         task_id='gold_facts',
         cwd='/opt/airflow/dbt_transform/grant',
-        bash_command='dbt run --select gold/fact'
+        bash_command='dbt run --select fact'
     )
 
     
     
-    ingest_cdc() >> load_to_snowflake() >> source_freshness() >> silver_grant >> gold_ephermeral >> gold_dimensions_opps >> gold_dimensions_agency >> gold_facts
+    ingest_cdc() >> load_to_snowflake() >> source_freshness() >> silver_grant >> gold_ephermeral >>  gold_dimensions_agency >> gold_dimensions_opps >> gold_facts
     
 orchestrate_dag = orchestrate()
 
