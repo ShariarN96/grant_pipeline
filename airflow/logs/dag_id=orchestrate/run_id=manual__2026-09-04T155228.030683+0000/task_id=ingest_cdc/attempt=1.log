@@ -1,0 +1,478 @@
+{"timestamp":"2026-09-04T15:52:28.468419Z","level":"info","event":"::group::Pre Execute","logger":"task","filename":"task_runner.py","lineno":2412}
+{"timestamp":"2026-09-04T15:52:28.502180Z","level":"info","event":"DAG bundles loaded: dags-folder","map_index":-1,"task_id":"ingest_cdc","dag_id":"orchestrate","try_number":1,"ti_id":"01a06d1f-129a-72e1-8014-7a8e356d3d82","run_id":"manual__2026-09-04T15:52:28.030683+00:00","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":304}
+{"timestamp":"2026-09-04T15:52:28.506127Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrate.py","map_index":-1,"task_id":"ingest_cdc","dag_id":"orchestrate","try_number":1,"ti_id":"01a06d1f-129a-72e1-8014-7a8e356d3d82","run_id":"manual__2026-09-04T15:52:28.030683+00:00","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":460}
+{"timestamp":"2026-09-04T15:52:29.667024Z","level":"warning","event":"urllib3 (2.7.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.7) doesn't match a supported version!","category":"UserWarning","filename":"/home/airflow/.local/lib/python3.13/site-packages/snowflake/connector/vendored/requests/__init__.py","lineno":113,"map_index":-1,"task_id":"ingest_cdc","dag_id":"orchestrate","try_number":1,"ti_id":"01a06d1f-129a-72e1-8014-7a8e356d3d82","run_id":"manual__2026-09-04T15:52:28.030683+00:00","logger":"py.warnings"}
+{"timestamp":"2026-09-04T15:52:29.668807Z","level":"info","event":"Worker startup parse complete","bundle_name":"dags-folder","bundle_version":null,"dag_file":"orchestrate.py","dag_id":"orchestrate","bundle_prepare_ms":3,"dag_file_parse_ms":1167,"map_index":-1,"task_id":"ingest_cdc","try_number":1,"ti_id":"01a06d1f-129a-72e1-8014-7a8e356d3d82","run_id":"manual__2026-09-04T15:52:28.030683+00:00","logger":"task","filename":"task_runner.py","lineno":1073}
+{"timestamp":"2026-09-04T15:52:29.689541Z","level":"info","event":"::endgroup::","map_index":-1,"task_id":"ingest_cdc","dag_id":"orchestrate","try_number":1,"ti_id":"01a06d1f-129a-72e1-8014-7a8e356d3d82","run_id":"manual__2026-09-04T15:52:28.030683+00:00","logger":"task","filename":"task_runner.py","lineno":2232}
+{"timestamp":"2026-09-04T15:52:29.930433Z","level":"info","event":"Status: 200","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.932236Z","level":"info","event":"Opportunities posted since 2026-09-03: 7","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.933611Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.934781Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.936008Z","level":"info","event":"OPPORTUNITY 1 of 7","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.937239Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.938560Z","level":"info","event":"{","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.939936Z","level":"info","event":"  \"agency\": \"DOD-AMRAA\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.941341Z","level":"info","event":"  \"agency_code\": \"DOD-AMRAA\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.942434Z","level":"info","event":"  \"agency_name\": \"Defense Health Agency Contracting Activity - DHACA\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.943667Z","level":"info","event":"  \"category\": \"discretionary\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.945115Z","level":"info","event":"  \"category_explanation\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.947094Z","level":"info","event":"  \"legacy_opportunity_id\": 363670,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.948846Z","level":"info","event":"  \"opportunity_assistance_listings\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.950474Z","level":"info","event":"    {","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.952152Z","level":"info","event":"      \"assistance_listing_number\": \"12.420\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.953632Z","level":"info","event":"      \"program_title\": \"Military Medical Research and Development\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.955165Z","level":"info","event":"    }","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.956712Z","level":"info","event":"  ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.958267Z","level":"info","event":"  \"opportunity_id\": \"5fab0e14-d356-49f6-97dd-3054f0271cda\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.959696Z","level":"info","event":"  \"opportunity_number\": \"HT942526BCRPBTA122\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.961437Z","level":"info","event":"  \"opportunity_status\": \"posted\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.962806Z","level":"info","event":"  \"opportunity_title\": \"DoW Breast Cancer, Breakthrough Award Levels 1 and 2\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.964230Z","level":"info","event":"  \"purpose_statement\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.966825Z","level":"info","event":"  \"summary\": {","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.968261Z","level":"info","event":"    \"additional_info_url\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.970213Z","level":"info","event":"    \"additional_info_url_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.971566Z","level":"info","event":"    \"agency_contact_description\": \"eBRAP Help Desk\\r\\nPhone:      301-682-5507\\r\\nEmail:       help@eBRAP.org\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.972940Z","level":"info","event":"    \"agency_email_address\": \"help@eBRAP.org\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.974323Z","level":"info","event":"    \"agency_email_address_description\": \"eBRAP Help Desk\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.975723Z","level":"info","event":"    \"applicant_eligibility_description\": \"\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.977332Z","level":"info","event":"    \"applicant_types\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.978820Z","level":"info","event":"      \"unrestricted\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.980336Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.981526Z","level":"info","event":"    \"archive_date\": \"2026-12-18\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.982898Z","level":"info","event":"    \"award_ceiling\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.984165Z","level":"info","event":"    \"award_floor\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.985338Z","level":"info","event":"    \"close_date\": \"2026-11-18\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.986660Z","level":"info","event":"    \"close_date_description\": \"\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.987902Z","level":"info","event":"    \"created_at\": \"2026-09-03T12:38:01+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.989258Z","level":"info","event":"    \"estimated_total_program_funding\": 10600000,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.990575Z","level":"info","event":"    \"expected_number_of_awards\": 6,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.992523Z","level":"info","event":"    \"fiscal_year\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.994254Z","level":"info","event":"    \"forecasted_award_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.995686Z","level":"info","event":"    \"forecasted_close_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.997573Z","level":"info","event":"    \"forecasted_close_date_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.999256Z","level":"info","event":"    \"forecasted_post_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.000750Z","level":"info","event":"    \"forecasted_project_start_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.002201Z","level":"info","event":"    \"funding_categories\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.003795Z","level":"info","event":"      \"science_technology_and_other_research_and_development\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.005188Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.006283Z","level":"info","event":"    \"funding_category_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.007767Z","level":"info","event":"    \"funding_instruments\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.009078Z","level":"info","event":"      \"grant\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.010290Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.012159Z","level":"info","event":"    \"is_cost_sharing\": false,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.013857Z","level":"info","event":"    \"is_forecast\": false,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.015044Z","level":"info","event":"    \"post_date\": \"2026-09-03\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.015969Z","level":"info","event":"    \"summary_description\": \"<p><strong>Summary: </strong>The fiscal year 2026 (FY26) Breast Cancer Research Program (BCRP) Breakthrough Award mechanism supports promising research with high potential to lead to or make breakthroughs in breast cancer. All applications must address at least one of the FY26 BCRP overarching challenges or provide adequate justification for exception. Applications must address the challenge in a way that can lead to a breakthrough and have major impact. The FY26 Breakthrough Award mechanism contains four different funding levels designed to support major (but not all) stages of research that will lead to clinical application. Each level specifies a distinct research scope. <strong>This program announcement discusses the Breakthrough Award Levels 1 and 2.</strong></p><p><br></p><p><strong>Distinctive Features:</strong></p><p><br></p><p>* <strong>This funding mechanism allows for applications submitted under Funding Level 1 or Funding Level 2. Funding Level 2 also includes a Population Science Studies option.</strong> With compelling justification, population science studies may request higher levels of funding and an additional year in the period of performance.</p><p><br></p><p>* <strong>This funding mechanism allows for a single Principal Investigator (PI), or two partnering PIs referred to as the Initiating PI and the Partnering PI.</strong> For the Partnering PI Option (PPIO), only the Initiating PI will submit a pre-application, but both PIs will need to submit at the full application stage. Be advised, failure to submit all associated (Initiating and Partnering PI) applications by the deadline may result in administrative withdrawal.</p>\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.016946Z","level":"info","event":"    \"updated_at\": \"2026-09-03T12:38:01+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.017820Z","level":"info","event":"    \"version_number\": 1","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.018603Z","level":"info","event":"  },","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.019380Z","level":"info","event":"  \"tagline\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.020348Z","level":"info","event":"  \"top_level_agency_code\": \"DOD\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.021343Z","level":"info","event":"  \"top_level_agency_name\": \"Department of Defense\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.022222Z","level":"info","event":"}","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.023230Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.024108Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.024941Z","level":"info","event":"OPPORTUNITY 2 of 7","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.026027Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.026996Z","level":"info","event":"{","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.028172Z","level":"info","event":"  \"agency\": \"USDOJ-OJP-BJA\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.029354Z","level":"info","event":"  \"agency_code\": \"USDOJ-OJP-BJA\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.030515Z","level":"info","event":"  \"agency_name\": \"Bureau of Justice Assistance\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.031591Z","level":"info","event":"  \"category\": \"discretionary\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.032670Z","level":"info","event":"  \"category_explanation\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.033628Z","level":"info","event":"  \"legacy_opportunity_id\": 363805,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.034576Z","level":"info","event":"  \"opportunity_assistance_listings\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.035880Z","level":"info","event":"    {","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.036964Z","level":"info","event":"      \"assistance_listing_number\": \"16.076\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.037938Z","level":"info","event":"      \"program_title\": \"Law Enforcement Support for Combatting Criminal Aliens, Drug, and Human Trafficking\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.038790Z","level":"info","event":"    }","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.039640Z","level":"info","event":"  ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.040682Z","level":"info","event":"  \"opportunity_id\": \"8ea93672-b51b-4e0e-b079-d97848c1f800\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.041661Z","level":"info","event":"  \"opportunity_number\": \"O-BJA-2026-172728\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.042579Z","level":"info","event":"  \"opportunity_status\": \"posted\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.043459Z","level":"info","event":"  \"opportunity_title\": \"BJA FY 2026 Bridging Immigration-Related Deficits Experienced Nationwide Program: Joint Task Force Crossroads America - Indiana Invitation to Apply\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.044588Z","level":"info","event":"  \"purpose_statement\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.045607Z","level":"info","event":"  \"summary\": {","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.046893Z","level":"info","event":"    \"additional_info_url\": \"www.ojp.usdoj.gov\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.047814Z","level":"info","event":"    \"additional_info_url_description\": \"OJP Website\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.048765Z","level":"info","event":"    \"agency_contact_description\": \"OJP.ResponseCenter@usdoj.gov\\nOJP.ResponseCenter@usdoj.gov\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.049697Z","level":"info","event":"    \"agency_email_address\": \"OJP.ResponseCenter@usdoj.gov\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.050500Z","level":"info","event":"    \"agency_email_address_description\": \"OJP Response Center\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.051266Z","level":"info","event":"    \"applicant_eligibility_description\": \"\\u201cOther\\u201d Entities: Indiana Criminal Justice Institute\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.052035Z","level":"info","event":"    \"applicant_types\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.052760Z","level":"info","event":"      \"other\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.053870Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.055114Z","level":"info","event":"    \"archive_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.056925Z","level":"info","event":"    \"award_ceiling\": 1615056,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.058253Z","level":"info","event":"    \"award_floor\": 0,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.059356Z","level":"info","event":"    \"close_date\": \"2026-09-09\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.060268Z","level":"info","event":"    \"close_date_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.061146Z","level":"info","event":"    \"created_at\": \"2026-09-03T19:34:06+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.062409Z","level":"info","event":"    \"estimated_total_program_funding\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.063736Z","level":"info","event":"    \"expected_number_of_awards\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.065185Z","level":"info","event":"    \"fiscal_year\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.066605Z","level":"info","event":"    \"forecasted_award_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.067914Z","level":"info","event":"    \"forecasted_close_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.068983Z","level":"info","event":"    \"forecasted_close_date_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.070388Z","level":"info","event":"    \"forecasted_post_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.071588Z","level":"info","event":"    \"forecasted_project_start_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.072637Z","level":"info","event":"    \"funding_categories\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.073903Z","level":"info","event":"      \"law_justice_and_legal_services\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.074851Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.076204Z","level":"info","event":"    \"funding_category_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.077373Z","level":"info","event":"    \"funding_instruments\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.078252Z","level":"info","event":"      \"grant\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.079410Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.080719Z","level":"info","event":"    \"is_cost_sharing\": false,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.081720Z","level":"info","event":"    \"is_forecast\": false,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.082517Z","level":"info","event":"    \"post_date\": \"2026-09-03\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.083370Z","level":"info","event":"    \"summary_description\": \"This funding opportunity will support the costs incurred by the Indiana Criminal Justice Institute for personnel, travel, training, and the purchase and maintenance of equipment, including but not limited to aerial surveillance equipment to effectively address law enforcement related to criminal illegal aliens, apprehend violent offenders, disrupt drug, human trafficking, gang and related criminal activity, and enhance public safety through coordinated, intelligence-led law enforcement operations.\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.084458Z","level":"info","event":"    \"updated_at\": \"2026-09-03T19:34:06+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.086593Z","level":"info","event":"    \"version_number\": 1","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.087646Z","level":"info","event":"  },","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.088591Z","level":"info","event":"  \"tagline\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.090190Z","level":"info","event":"  \"top_level_agency_code\": \"USDOJ\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.090875Z","level":"info","event":"  \"top_level_agency_name\": \"Department of Justice\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.091728Z","level":"info","event":"}","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.092485Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.093363Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.094309Z","level":"info","event":"OPPORTUNITY 3 of 7","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.095407Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.096424Z","level":"info","event":"{","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.097306Z","level":"info","event":"  \"agency\": \"DOE-NETL\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.098224Z","level":"info","event":"  \"agency_code\": \"DOE-NETL\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.100124Z","level":"info","event":"  \"agency_name\": \"National Energy Technology Laboratory\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.101345Z","level":"info","event":"  \"category\": \"discretionary\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.102417Z","level":"info","event":"  \"category_explanation\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.103068Z","level":"info","event":"  \"legacy_opportunity_id\": 363797,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.104704Z","level":"info","event":"  \"opportunity_assistance_listings\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.106737Z","level":"info","event":"    {","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.108647Z","level":"info","event":"      \"assistance_listing_number\": \"81.089\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.110587Z","level":"info","event":"      \"program_title\": \"Fossil Energy Research and Development\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.112502Z","level":"info","event":"    }","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.114779Z","level":"info","event":"  ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.117861Z","level":"info","event":"  \"opportunity_id\": \"9157af4e-c67b-4827-88a5-49149fa24a3d\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.120398Z","level":"info","event":"  \"opportunity_number\": \"DE-FOA-0003671\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.122624Z","level":"info","event":"  \"opportunity_status\": \"posted\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.124264Z","level":"info","event":"  \"opportunity_title\": \"Request for Information - Gauging Investor Interest in the Development and Commercialization of Subsurface Energy Technologies\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.125886Z","level":"info","event":"  \"purpose_statement\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.127466Z","level":"info","event":"  \"summary\": {","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.129251Z","level":"info","event":"    \"additional_info_url\": \"https://netl-exchange.energy.gov\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.131608Z","level":"info","event":"    \"additional_info_url_description\": \"eXCHANGE\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.133464Z","level":"info","event":"    \"agency_contact_description\": \"DE-FOA-0003671\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.135293Z","level":"info","event":"    \"agency_email_address\": \"DE-FOA-0003671\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.137327Z","level":"info","event":"    \"agency_email_address_description\": \"Click to email contact\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.139564Z","level":"info","event":"    \"applicant_eligibility_description\": \"\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.142128Z","level":"info","event":"    \"applicant_types\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.144445Z","level":"info","event":"      \"unrestricted\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.147278Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.149202Z","level":"info","event":"    \"archive_date\": \"2026-11-04\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.150831Z","level":"info","event":"    \"award_ceiling\": 2,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.152631Z","level":"info","event":"    \"award_floor\": 1,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:29.939888Z","level":"info","event":"Request URL: 'https://grantproject.dfs.core.windows.net/bronze/grants_gov/ingest_date%3D2026-09-04/opportunities.json?resource=REDACTED'\nRequest method: 'PUT'\nRequest headers:\n    'x-ms-version': 'REDACTED'\n    'Accept': 'application/json'\n    'User-Agent': 'azsdk-python-storage-dfs/12.25.0 Python/3.13.14 (Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.36)'\n    'x-ms-date': 'REDACTED'\n    'x-ms-client-request-id': 'a266d6b6-a878-11f1-b27c-e6969291f1f1'\n    'Authorization': 'REDACTED'\nNo body was attached to the request","logger":"azure.core.pipeline.policies.http_logging_policy","map_index":-1,"task_id":"ingest_cdc","dag_id":"orchestrate","try_number":1,"ti_id":"01a06d1f-129a-72e1-8014-7a8e356d3d82","run_id":"manual__2026-09-04T15:52:28.030683+00:00","filename":"_universal.py","lineno":535}
+{"timestamp":"2026-09-04T15:52:30.155299Z","level":"info","event":"    \"close_date\": \"2026-10-05\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.156205Z","level":"info","event":"    \"close_date_description\": \"Responses to this RFI must be submitted electronically to DE-FOA-0003671@netl.doe.gov by the specified due date and time.  See Request for Information for additional details.\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.157014Z","level":"info","event":"    \"created_at\": \"2026-09-03T14:33:44+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.158011Z","level":"info","event":"    \"estimated_total_program_funding\": 0,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.158967Z","level":"info","event":"    \"expected_number_of_awards\": 0,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.160272Z","level":"info","event":"    \"fiscal_year\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.161444Z","level":"info","event":"    \"forecasted_award_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.162488Z","level":"info","event":"    \"forecasted_close_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.163416Z","level":"info","event":"    \"forecasted_close_date_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.164998Z","level":"info","event":"    \"forecasted_post_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.166093Z","level":"info","event":"    \"forecasted_project_start_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.167226Z","level":"info","event":"    \"funding_categories\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.168195Z","level":"info","event":"      \"energy\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.169214Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.170482Z","level":"info","event":"    \"funding_category_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.171368Z","level":"info","event":"    \"funding_instruments\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.172360Z","level":"info","event":"      \"other\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.173198Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.174121Z","level":"info","event":"    \"is_cost_sharing\": false,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.175096Z","level":"info","event":"    \"is_forecast\": false,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.176404Z","level":"info","event":"    \"post_date\": \"2026-09-03\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.177951Z","level":"info","event":"    \"summary_description\": \"<p>The U.S. Department of Energy (DOE)\\u2019s Hydrocarbons and Geothermal Energy Office (HGEO) is issuing this Request for Information (RFI) to notify parties of its potential interest in connecting private capital/ public-private partnership programs to industry opportunities. This initiative provides HGEO\\u2019s technical expertise across the Office of Subsurface Energy\\u2019s three core program areas: Coal, Oil &amp; Gas, and Geothermal. Ultimately, the goal is to use HGEO\\u2019s research and development (R&amp;D) capabilities to support industry and capital.Through this RFI, DOE requests input from all stakeholders, particularly the financial sector, to gauge investor interest in the development and commercialization of subsurface-energy technologies. This is solely a request for information and not a Notice of Funding Opportunity (NOFO). DOE\\u2019s HGEO is not accepting applications for funding at this time.</p>\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.180165Z","level":"info","event":"    \"updated_at\": \"2026-09-03T14:49:05+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.181751Z","level":"info","event":"    \"version_number\": 2","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.183299Z","level":"info","event":"  },","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.184790Z","level":"info","event":"  \"tagline\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.186663Z","level":"info","event":"  \"top_level_agency_code\": \"DOE\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.188323Z","level":"info","event":"  \"top_level_agency_name\": \"Department of Energy\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.189699Z","level":"info","event":"}","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.190991Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.191939Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.193166Z","level":"info","event":"OPPORTUNITY 4 of 7","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.194038Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.194959Z","level":"info","event":"{","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.195875Z","level":"info","event":"  \"agency\": \"DOD-AMRAA\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.196938Z","level":"info","event":"  \"agency_code\": \"DOD-AMRAA\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.197889Z","level":"info","event":"  \"agency_name\": \"Defense Health Agency Contracting Activity - DHACA\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.198829Z","level":"info","event":"  \"category\": \"discretionary\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.199748Z","level":"info","event":"  \"category_explanation\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.200993Z","level":"info","event":"  \"legacy_opportunity_id\": 363671,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.201837Z","level":"info","event":"  \"opportunity_assistance_listings\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.202674Z","level":"info","event":"    {","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.203784Z","level":"info","event":"      \"assistance_listing_number\": \"12.420\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.204944Z","level":"info","event":"      \"program_title\": \"Military Medical Research and Development\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.206003Z","level":"info","event":"    }","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.206889Z","level":"info","event":"  ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.207723Z","level":"info","event":"  \"opportunity_id\": \"f03c1c58-6492-460f-9f19-11ac14ec5184\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.208532Z","level":"info","event":"  \"opportunity_number\": \"HT942526BCRPCREA2\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.209244Z","level":"info","event":"  \"opportunity_status\": \"posted\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.209911Z","level":"info","event":"  \"opportunity_title\": \"DoW Breast Cancer, Clinical Research Extension Award\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.210471Z","level":"info","event":"  \"purpose_statement\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.210965Z","level":"info","event":"  \"summary\": {","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.211947Z","level":"info","event":"    \"additional_info_url\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.213047Z","level":"info","event":"    \"additional_info_url_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.214127Z","level":"info","event":"    \"agency_contact_description\": \"eBRAP Help Desk\\r\\nPhone:      301-682-5507\\r\\nEmail:       help@eBRAP.org\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.215229Z","level":"info","event":"    \"agency_email_address\": \"help@eBRAP.org\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.216359Z","level":"info","event":"    \"agency_email_address_description\": \"eBRAP Help Desk\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.217538Z","level":"info","event":"    \"applicant_eligibility_description\": \"\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.218395Z","level":"info","event":"    \"applicant_types\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.219264Z","level":"info","event":"      \"unrestricted\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.220068Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.220939Z","level":"info","event":"    \"archive_date\": \"2026-12-18\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.221657Z","level":"info","event":"    \"award_ceiling\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.222333Z","level":"info","event":"    \"award_floor\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.222890Z","level":"info","event":"    \"close_date\": \"2026-11-18\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.223472Z","level":"info","event":"    \"close_date_description\": \"\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.223941Z","level":"info","event":"    \"created_at\": \"2026-09-03T12:55:51+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.224621Z","level":"info","event":"    \"estimated_total_program_funding\": 8400000,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.225415Z","level":"info","event":"    \"expected_number_of_awards\": 1,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.226145Z","level":"info","event":"    \"fiscal_year\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.226970Z","level":"info","event":"    \"forecasted_award_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.227843Z","level":"info","event":"    \"forecasted_close_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.228889Z","level":"info","event":"    \"forecasted_close_date_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.229705Z","level":"info","event":"    \"forecasted_post_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.230529Z","level":"info","event":"    \"forecasted_project_start_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.231245Z","level":"info","event":"    \"funding_categories\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.231926Z","level":"info","event":"      \"science_technology_and_other_research_and_development\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.232629Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.233256Z","level":"info","event":"    \"funding_category_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.233956Z","level":"info","event":"    \"funding_instruments\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.234636Z","level":"info","event":"      \"grant\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.235356Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.236062Z","level":"info","event":"    \"is_cost_sharing\": false,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.236764Z","level":"info","event":"    \"is_forecast\": false,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.237600Z","level":"info","event":"    \"post_date\": \"2026-09-03\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.238404Z","level":"info","event":"    \"summary_description\": \"<p><strong>Summary: </strong>The fiscal year 2026 (FY26) Breast Cancer Research Program (BCRP) Clinical Research Extension Award supports research that extends the data collection, follow-up, and analysis of breast cancer clinical studies. The intent of this award mechanism is to increase the clinically relevant impact of breast cancer patient participation in clinical studies by addressing the knowledge lost due to early trial termination, limited patient follow-up, or suboptimal sample and/or data collection and analysis. All applications must address at least one of the FY26 BCRP overarching challenges or provide adequate justification for exception.</p><p><br></p><p><strong>Distinctive Features:</strong></p><p><br></p><p>\\u2022 The research team must include two or more breast cancer consumer advocates.</p><p><br></p><p>\\u2022 <strong>This funding mechanism allows for a single Principal Investigator (PI), or two partnering PIs referred to as the Initiating PI and the Partnering PI.</strong> For the Partnering PI Option (PPIO), only the Initiating PI will submit a pre-application, but both PIs will need to submit at the full application stage. Be advised, failure to submit all associated (Initiating and Partnering PI) applications by the deadline may result in administrative withdrawal.</p>\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.239245Z","level":"info","event":"    \"updated_at\": \"2026-09-03T12:55:51+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.240074Z","level":"info","event":"    \"version_number\": 1","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.240930Z","level":"info","event":"  },","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.241629Z","level":"info","event":"  \"tagline\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.242297Z","level":"info","event":"  \"top_level_agency_code\": \"DOD\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.242990Z","level":"info","event":"  \"top_level_agency_name\": \"Department of Defense\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.243673Z","level":"info","event":"}","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.244549Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.245472Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.246317Z","level":"info","event":"OPPORTUNITY 5 of 7","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.247108Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.247918Z","level":"info","event":"{","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.248674Z","level":"info","event":"  \"agency\": \"USDA-NIFA\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.249334Z","level":"info","event":"  \"agency_code\": \"USDA-NIFA\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.250030Z","level":"info","event":"  \"agency_name\": \"National Institute of Food and Agriculture\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.250738Z","level":"info","event":"  \"category\": \"discretionary\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.251423Z","level":"info","event":"  \"category_explanation\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.252100Z","level":"info","event":"  \"legacy_opportunity_id\": 363796,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.252940Z","level":"info","event":"  \"opportunity_assistance_listings\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.253661Z","level":"info","event":"    {","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.254410Z","level":"info","event":"      \"assistance_listing_number\": \"10.216\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.255084Z","level":"info","event":"      \"program_title\": \"1890 Institution Capacity Building Grants\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.255781Z","level":"info","event":"    }","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.256423Z","level":"info","event":"  ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.257192Z","level":"info","event":"  \"opportunity_id\": \"03297609-7453-4e82-8c53-ce31a0b42e28\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.257870Z","level":"info","event":"  \"opportunity_number\": \"USDA-NIFA-CBGP-011698\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.258542Z","level":"info","event":"  \"opportunity_status\": \"posted\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.259173Z","level":"info","event":"  \"opportunity_title\": \"1890 Institution Teaching, Research, and Extension Capacity Building Grants Program\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.259911Z","level":"info","event":"  \"purpose_statement\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.260653Z","level":"info","event":"  \"summary\": {","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.261363Z","level":"info","event":"    \"additional_info_url\": \"https://www.nifa.usda.gov/grants/funding-opportunities/1890-institution-teaching-research-extension-capacity-building-grants\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.262164Z","level":"info","event":"    \"additional_info_url_description\": \"1890 Institution Teaching, Research, and Extension Capacity Building Grants\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.262891Z","level":"info","event":"    \"agency_contact_description\": \"Business hours: Monday through Friday, 8a.m. \\u2013 5p.m. CT, except Federal holidays\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.263538Z","level":"info","event":"    \"agency_email_address\": \"grantapplicationquestions@usda.gov\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.264165Z","level":"info","event":"    \"agency_email_address_description\": \"grantapplicationquestions@usda.gov\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.180710Z","level":"info","event":"Response status: 201\nResponse headers:\n    'Last-Modified': 'Fri, 04 Sep 2026 15:52:29 GMT'\n    'ETag': '\"0x8DF0A9C868F4160\"'\n    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'\n    'x-ms-request-server-encrypted': 'REDACTED'\n    'x-ms-request-id': '4ffaaaaa-401f-0019-0d85-3c8d37000000'\n    'x-ms-version': 'REDACTED'\n    'x-ms-client-request-id': 'a266d6b6-a878-11f1-b27c-e6969291f1f1'\n    'Date': 'Fri, 04 Sep 2026 15:52:28 GMT'\n    'Content-Length': '0'","logger":"azure.core.pipeline.policies.http_logging_policy","map_index":-1,"task_id":"ingest_cdc","dag_id":"orchestrate","try_number":1,"ti_id":"01a06d1f-129a-72e1-8014-7a8e356d3d82","run_id":"manual__2026-09-04T15:52:28.030683+00:00","filename":"_universal.py","lineno":581}
+{"timestamp":"2026-09-04T15:52:30.183292Z","level":"info","event":"Request URL: 'https://grantproject.dfs.core.windows.net/bronze/grants_gov/ingest_date%3D2026-09-04/opportunities.json?action=REDACTED&position=REDACTED'\nRequest method: 'PATCH'\nRequest headers:\n    'Content-Length': '26169'\n    'x-ms-version': 'REDACTED'\n    'Content-Type': 'application/json'\n    'Accept': 'application/json'\n    'User-Agent': 'azsdk-python-storage-dfs/12.25.0 Python/3.13.14 (Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.36)'\n    'x-ms-date': 'REDACTED'\n    'x-ms-client-request-id': 'a28c0a08-a878-11f1-b27c-e6969291f1f1'\n    'Authorization': 'REDACTED'\nA body is sent with the request","logger":"azure.core.pipeline.policies.http_logging_policy","map_index":-1,"task_id":"ingest_cdc","dag_id":"orchestrate","try_number":1,"ti_id":"01a06d1f-129a-72e1-8014-7a8e356d3d82","run_id":"manual__2026-09-04T15:52:28.030683+00:00","filename":"_universal.py","lineno":532}
+{"timestamp":"2026-09-04T15:52:30.250363Z","level":"info","event":"Response status: 202\nResponse headers:\n    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'\n    'x-ms-request-server-encrypted': 'REDACTED'\n    'x-ms-request-id': '4ffaaabb-401f-0019-1e85-3c8d37000000'\n    'x-ms-version': 'REDACTED'\n    'x-ms-client-request-id': 'a28c0a08-a878-11f1-b27c-e6969291f1f1'\n    'Date': 'Fri, 04 Sep 2026 15:52:28 GMT'\n    'Content-Length': '0'","logger":"azure.core.pipeline.policies.http_logging_policy","map_index":-1,"task_id":"ingest_cdc","dag_id":"orchestrate","try_number":1,"ti_id":"01a06d1f-129a-72e1-8014-7a8e356d3d82","run_id":"manual__2026-09-04T15:52:28.030683+00:00","filename":"_universal.py","lineno":581}
+{"timestamp":"2026-09-04T15:52:30.251175Z","level":"info","event":"Request URL: 'https://grantproject.dfs.core.windows.net/bronze/grants_gov/ingest_date%3D2026-09-04/opportunities.json?action=REDACTED&position=REDACTED&close=REDACTED'\nRequest method: 'PATCH'\nRequest headers:\n    'If-Match': '\"0x8DF0A9C868F4160\"'\n    'x-ms-version': 'REDACTED'\n    'Accept': 'application/json'\n    'User-Agent': 'azsdk-python-storage-dfs/12.25.0 Python/3.13.14 (Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.36)'\n    'x-ms-date': 'REDACTED'\n    'x-ms-client-request-id': 'a2967d9e-a878-11f1-b27c-e6969291f1f1'\n    'Authorization': 'REDACTED'\nNo body was attached to the request","logger":"azure.core.pipeline.policies.http_logging_policy","map_index":-1,"task_id":"ingest_cdc","dag_id":"orchestrate","try_number":1,"ti_id":"01a06d1f-129a-72e1-8014-7a8e356d3d82","run_id":"manual__2026-09-04T15:52:28.030683+00:00","filename":"_universal.py","lineno":535}
+{"timestamp":"2026-09-04T15:52:30.267788Z","level":"info","event":"    \"applicant_eligibility_description\": \"Applicants for the 1890 CBG Program must meet all the requirements discussed in this NOFO. Failure to meet the eligibility criteria by the application deadline may result in exclusion from consideration or, preclude NIFA from making an award. For those new to Federal financial assistance, NIFA\\u2019s About Grants provides highly recommended information about grants and other resources to help understand the Federal awards process.\\r\\nApplications may only be submitted by eligible 1890 Land-grant Universities (7 U.S.C. 3152(d)(2)). \\r\\nThe eligible institutions are:\\r\\n1.\\tAlabama A&M University\\r\\n2.\\tAlcorn State University\\r\\n3.\\tCentral State University\\r\\n4.\\tDelaware State University\\r\\n5.\\tFlorida A&M University\\r\\n6.\\tFort Valley State University\\r\\n7.\\tKentucky State University\\r\\n8.\\tLangston University\\r\\n9.\\tLincoln University (MO)\\r\\n10.\\tNorth Carolina A&T State University\\r\\n11.\\tPrairie View A&M University\\r\\n12.\\tSouth Carolina State University\\r\\n13.\\tSouthern University and A&M College\\r\\n14.\\tTennessee State University\\r\\n15.\\tTuskegee University\\r\\n16.\\tUniversity of Arkansas-Pine Bluff\\r\\n17.\\tUniversity of Maryland-Eastern Shore\\r\\n18.\\tVirginia State University\\r\\n19.\\tWest Virginia State University\\r\\n\\r\\nFaculty may not serve as PD on more than two active 1890 CBG projects. If an applicant has two active projects, at least one project must be scheduled to expire by the end of the current fiscal year. Faculty may submit multiple applications for Standard and/or Collaborative Grants as the lead PD to the 1890 CBG Program in FYs 2026 and 2027. Additionally, there is no limit on the number of grants for which faculty may be listed as co-PD or key personnel.\\r\\nAll Collaborative or Integrated Education, Research, and Extension Projects may subcontract, as deemed appropriate, to organizations not eligible to apply, provided such organizations are necessary to conduct a successful project. The subcontract must advance capacity building at the 1890 LGU in the area of the proposed project.\\r\\nUSDA will not accept competitive applications for grant and cooperative agreements submitted for dangerous gain-of-function research, as defined in Section 8 of E.O. 14292.\\r\\nDuplicate or Multiple Submissions \\u2013 Submissions of duplicate or predominantly overlapping projects are not allowed. An eligible applicant may submit multiple applications on behalf of the institution whereas they are not essentially duplications of the same project or portions of the same project to multiple programs.\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.268553Z","level":"info","event":"    \"applicant_types\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.269154Z","level":"info","event":"      \"other\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.269828Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.270482Z","level":"info","event":"    \"archive_date\": \"2026-12-04\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.271125Z","level":"info","event":"    \"award_ceiling\": 750000,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.271683Z","level":"info","event":"    \"award_floor\": 50000,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.272413Z","level":"info","event":"    \"close_date\": \"2026-11-04\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.273050Z","level":"info","event":"    \"close_date_description\": \"\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.273573Z","level":"info","event":"    \"created_at\": \"2026-09-03T13:12:31+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.274239Z","level":"info","event":"    \"estimated_total_program_funding\": 56000000,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.274791Z","level":"info","event":"    \"expected_number_of_awards\": 125,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.275528Z","level":"info","event":"    \"fiscal_year\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.276159Z","level":"info","event":"    \"forecasted_award_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.276869Z","level":"info","event":"    \"forecasted_close_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.277589Z","level":"info","event":"    \"forecasted_close_date_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.278384Z","level":"info","event":"    \"forecasted_post_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.279093Z","level":"info","event":"    \"forecasted_project_start_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.279700Z","level":"info","event":"    \"funding_categories\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.280400Z","level":"info","event":"      \"agriculture\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.280846Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.281570Z","level":"info","event":"    \"funding_category_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.282110Z","level":"info","event":"    \"funding_instruments\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.283075Z","level":"info","event":"      \"grant\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.284114Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.284881Z","level":"info","event":"    \"is_cost_sharing\": false,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.285676Z","level":"info","event":"    \"is_forecast\": false,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.286324Z","level":"info","event":"    \"post_date\": \"2026-09-03\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.287032Z","level":"info","event":"    \"summary_description\": \"<p>The 1890 CBG program, under Assistance Listing Number 10.216 is designed specifically to build the institutional teaching, research, and extension capacities of the eligible institutions through cooperative programs with Federal and non-Federal entities.&nbsp;&nbsp;The 1890 CBG Program supports Executive Order <a href=\\\"https://www.federalregister.gov/documents/2025/04/28/2025-07380/white-house-initiative-to-promote-excellence-and-innovation-at-historically-black-colleges-and\\\" target=\\\"_blank\\\">14283</a>, \\u201cWhite House Initiative to Promote Excellence and Innovation at Historically Black Colleges and Universities (HBCU),\\u201d in order to foster excellence and innovation at HBCUs.&nbsp;</p>\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.287615Z","level":"info","event":"    \"updated_at\": \"2026-09-03T13:12:31+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.288432Z","level":"info","event":"    \"version_number\": 1","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.289098Z","level":"info","event":"  },","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.289589Z","level":"info","event":"  \"tagline\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.290333Z","level":"info","event":"  \"top_level_agency_code\": \"USDA\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.291154Z","level":"info","event":"  \"top_level_agency_name\": \"Department of Agriculture\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.291941Z","level":"info","event":"}","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.292640Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.293198Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.294008Z","level":"info","event":"OPPORTUNITY 6 of 7","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.294747Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.295647Z","level":"info","event":"{","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.296562Z","level":"info","event":"  \"agency\": \"DOT-FRA\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.297281Z","level":"info","event":"  \"agency_code\": \"DOT-FRA\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.297838Z","level":"info","event":"  \"agency_name\": \"DOT - Federal Railroad Administration\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.298790Z","level":"info","event":"  \"category\": \"discretionary\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.299485Z","level":"info","event":"  \"category_explanation\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.300132Z","level":"info","event":"  \"legacy_opportunity_id\": 363798,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.300932Z","level":"info","event":"  \"opportunity_assistance_listings\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.301723Z","level":"info","event":"    {","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.302494Z","level":"info","event":"      \"assistance_listing_number\": \"20.314\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.303594Z","level":"info","event":"      \"program_title\": \"Railroad Development\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.304466Z","level":"info","event":"    }","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.305379Z","level":"info","event":"  ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.306219Z","level":"info","event":"  \"opportunity_id\": \"9854b307-dff7-4f10-80dc-a760b9b3dbc2\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.306951Z","level":"info","event":"  \"opportunity_number\": \"FR-RLD-26-001\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.307628Z","level":"info","event":"  \"opportunity_status\": \"posted\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.308233Z","level":"info","event":"  \"opportunity_title\": \"FY26 Atlantic Gateway, Arlington to Alexandria Fourth Track - CMAQ Funds\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.308938Z","level":"info","event":"  \"purpose_statement\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.309582Z","level":"info","event":"  \"summary\": {","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.310305Z","level":"info","event":"    \"additional_info_url\": \"https://www.grantsolutions.gov/gs/preaward/previewPublicAnnouncement.do?id=127866\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.311159Z","level":"info","event":"    \"additional_info_url_description\": \"FY26 Atlantic Gateway, Arlington to Alexandria Fourth Track - CMAQ Funds\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.312201Z","level":"info","event":"    \"agency_contact_description\": \"GrantSolutions Help Desk\\n\\nPhone Number: 1.866.577.0771 or 202.401.5282\\n\\nHours of operation are Monday-Friday from 9:00 a.m. to 6:00 p.m. ET\\nhelp@grantsolutions.gov\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.313087Z","level":"info","event":"    \"agency_email_address\": \"help@grantsolutions.gov\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.313820Z","level":"info","event":"    \"agency_email_address_description\": \"GrantSolutions Help Desk\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.314635Z","level":"info","event":"    \"applicant_eligibility_description\": \"Only the Virginia Passenger Rail Authority (VPRA) is eligible to apply.\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.315527Z","level":"info","event":"    \"applicant_types\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.316332Z","level":"info","event":"      \"other\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.317175Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.317955Z","level":"info","event":"    \"archive_date\": \"2026-10-09\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.318944Z","level":"info","event":"    \"award_ceiling\": 56000000,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.319817Z","level":"info","event":"    \"award_floor\": 0,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.320655Z","level":"info","event":"    \"close_date\": \"2026-09-09\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.321484Z","level":"info","event":"    \"close_date_description\": \"No Explanation\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.322345Z","level":"info","event":"    \"created_at\": \"2026-09-03T15:39:07+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.323182Z","level":"info","event":"    \"estimated_total_program_funding\": 56000000,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.324008Z","level":"info","event":"    \"expected_number_of_awards\": 1,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.324795Z","level":"info","event":"    \"fiscal_year\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.325580Z","level":"info","event":"    \"forecasted_award_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.326294Z","level":"info","event":"    \"forecasted_close_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.327110Z","level":"info","event":"    \"forecasted_close_date_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.328002Z","level":"info","event":"    \"forecasted_post_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.329168Z","level":"info","event":"    \"forecasted_project_start_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.330197Z","level":"info","event":"    \"funding_categories\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.331042Z","level":"info","event":"      \"transportation\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.331666Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.332537Z","level":"info","event":"    \"funding_category_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.333258Z","level":"info","event":"    \"funding_instruments\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.334201Z","level":"info","event":"      \"grant\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.335107Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.336071Z","level":"info","event":"    \"is_cost_sharing\": true,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.336925Z","level":"info","event":"    \"is_forecast\": false,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.337742Z","level":"info","event":"    \"post_date\": \"2026-09-03\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.338530Z","level":"info","event":"    \"summary_description\": \"The Project includes the construction of approximately six miles of new fourth track on the CSX Richmond, Fredericksburg, and Potomac Subdivision, primarily on the east side of the right-of-way.\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.339375Z","level":"info","event":"    \"updated_at\": \"2026-09-03T15:39:07+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.340227Z","level":"info","event":"    \"version_number\": 1","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.341289Z","level":"info","event":"  },","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.342306Z","level":"info","event":"  \"tagline\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.343400Z","level":"info","event":"  \"top_level_agency_code\": \"DOT\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.344360Z","level":"info","event":"  \"top_level_agency_name\": \"Department of Transportation\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.345302Z","level":"info","event":"}","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.346031Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.346857Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.347597Z","level":"info","event":"OPPORTUNITY 7 of 7","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.348579Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.349397Z","level":"info","event":"{","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.350359Z","level":"info","event":"  \"agency\": \"HHS-CDC-NCCDPHP\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.351235Z","level":"info","event":"  \"agency_code\": \"HHS-CDC-NCCDPHP\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.351999Z","level":"info","event":"  \"agency_name\": \"Centers for Disease Control - NCCDPHP\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.352826Z","level":"info","event":"  \"category\": \"discretionary\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.353613Z","level":"info","event":"  \"category_explanation\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.354449Z","level":"info","event":"  \"legacy_opportunity_id\": 363814,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.355501Z","level":"info","event":"  \"opportunity_assistance_listings\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.356239Z","level":"info","event":"    {","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.357037Z","level":"info","event":"      \"assistance_listing_number\": \"93.898\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.357791Z","level":"info","event":"      \"program_title\": \"Cancer Prevention and Control Programs for State, Territorial and Tribal Organizations\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.358397Z","level":"info","event":"    }","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.359071Z","level":"info","event":"  ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.359747Z","level":"info","event":"  \"opportunity_id\": \"be66c7b5-6a80-4b5f-98bf-b2424791e3f6\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.360405Z","level":"info","event":"  \"opportunity_number\": \"CDC-RFA-DP-27-0023\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.361200Z","level":"info","event":"  \"opportunity_status\": \"posted\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.361904Z","level":"info","event":"  \"opportunity_title\": \"Cancer Prevention and Control Programs for State, Territorial, and Tribal Organizations\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.362580Z","level":"info","event":"  \"purpose_statement\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.363355Z","level":"info","event":"  \"summary\": {","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.364081Z","level":"info","event":"    \"additional_info_url\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.364683Z","level":"info","event":"    \"additional_info_url_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.365258Z","level":"info","event":"    \"agency_contact_description\": \"Netta Apedoe, MPH\\nDP270023@cdc.gov\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.366028Z","level":"info","event":"    \"agency_email_address\": \"DP270023@cdc.gov\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.366933Z","level":"info","event":"    \"agency_email_address_description\": \"DP27-0023 mailbox for general application questions\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.310410Z","level":"info","event":"Response status: 200\nResponse headers:\n    'Last-Modified': 'Fri, 04 Sep 2026 15:52:30 GMT'\n    'ETag': '\"0x8DF0A9C86A4B1FC\"'\n    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'\n    'x-ms-request-server-encrypted': 'REDACTED'\n    'x-ms-request-id': '4ffaaac7-401f-0019-2a85-3c8d37000000'\n    'x-ms-version': 'REDACTED'\n    'x-ms-client-request-id': 'a2967d9e-a878-11f1-b27c-e6969291f1f1'\n    'Date': 'Fri, 04 Sep 2026 15:52:29 GMT'\n    'Content-Length': '0'","logger":"azure.core.pipeline.policies.http_logging_policy","map_index":-1,"task_id":"ingest_cdc","dag_id":"orchestrate","try_number":1,"ti_id":"01a06d1f-129a-72e1-8014-7a8e356d3d82","run_id":"manual__2026-09-04T15:52:28.030683+00:00","filename":"_universal.py","lineno":581}
+{"timestamp":"2026-09-04T15:52:30.311948Z","level":"info","event":"Done. Returned value was: 7","map_index":-1,"task_id":"ingest_cdc","dag_id":"orchestrate","try_number":1,"ti_id":"01a06d1f-129a-72e1-8014-7a8e356d3d82","run_id":"manual__2026-09-04T15:52:28.030683+00:00","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":233}
+{"timestamp":"2026-09-04T15:52:30.312101Z","level":"info","event":"::group::Post Execute","map_index":-1,"task_id":"ingest_cdc","dag_id":"orchestrate","try_number":1,"ti_id":"01a06d1f-129a-72e1-8014-7a8e356d3d82","run_id":"manual__2026-09-04T15:52:28.030683+00:00","logger":"task","filename":"task_runner.py","lineno":1580}
+{"timestamp":"2026-09-04T15:52:30.312273Z","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('01a06d1f-129a-72e1-8014-7a8e356d3d82'), task_id='ingest_cdc', dag_id='orchestrate', run_id='manual__2026-09-04T15:52:28.030683+00:00', try_number=1, dag_version_id=UUID('01a06d18-5927-7da3-b5f2-4ca3efb9641c'), map_index=-1, hostname='e4a62a8731d3', context_carrier={'traceparent': '00-26b9a231b54e9ba683c8bddd5a17bdcd-1e6bfc556fd455ca-00'}, queue='default', task=<Task(_PythonDecoratedOperator): ingest_cdc>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2026, 9, 4, 15, 52, 28, 489940, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None, sentry_integration='sentry_sdk.integrations.celery.CeleryIntegration')","map_index":-1,"task_id":"ingest_cdc","dag_id":"orchestrate","try_number":1,"ti_id":"01a06d1f-129a-72e1-8014-7a8e356d3d82","run_id":"manual__2026-09-04T15:52:28.030683+00:00","logger":"task","filename":"task_runner.py","lineno":2280}
+{"timestamp":"2026-09-04T15:52:30.371592Z","level":"info","event":"    \"applicant_eligibility_description\": \"The eligibility above pertains only to Program 2.Program 1: The National Breast and Cervical Cancer Early Detection Program (NBCCEDP) Limited Eligibility: Funds will be awarded to state health departments and the District of Columbia; US Territories and Freely Associated States, Federally Recognized American Indian Tribes, Tribal Organizations, Alaska Native Organizations, and Urban Indian Organizations, or their Bona Fide Agents. Eligibility for this program is limited by statute. See https://www.govinfo.gov/content/pkg/STATUTE-104/pdf/STATUTE-104-Pg409.pdfProgram 3: The National Program of Cancer Registries (NPCR) Limited Eligibility: Eligibility for this program is limited by statute toState governments (includes the District of Columbia).US territories and freely associated states.Bona fide agents applying on behalf of state or territorial entities, including government organizations. See Cancer Registries Amendment ActBona fide agents must submit documentation that demonstrates their arrangement with the eligible applicant. Please note the following definitions: State (includes the District of Columbia), Territorial governments in the Commonwealth of Puerto Rico, the Virgin Islands, the Commonwealth of the Northern Marianna Islands, American Samoa, Guam, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau. American Indian or Alaska Native tribal governments (federally recognized or state-recognized), American Indian or Alaska native tribal designated organizations. or their Bona Fide Agents.\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.372601Z","level":"info","event":"    \"applicant_types\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.373489Z","level":"info","event":"      \"county_governments\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.374363Z","level":"info","event":"      \"state_governments\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.375329Z","level":"info","event":"      \"federally_recognized_native_american_tribal_governments\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.376193Z","level":"info","event":"      \"city_or_township_governments\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.377024Z","level":"info","event":"      \"other_native_american_tribal_organizations\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.378004Z","level":"info","event":"      \"private_institutions_of_higher_education\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.378687Z","level":"info","event":"      \"nonprofits_non_higher_education_without_501c3\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.379523Z","level":"info","event":"      \"other\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.380231Z","level":"info","event":"      \"nonprofits_non_higher_education_with_501c3\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.380977Z","level":"info","event":"      \"public_and_state_institutions_of_higher_education\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.381746Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.382637Z","level":"info","event":"    \"archive_date\": \"2027-03-07\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.383553Z","level":"info","event":"    \"award_ceiling\": 0,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.384351Z","level":"info","event":"    \"award_floor\": 0,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.385234Z","level":"info","event":"    \"close_date\": \"2027-02-05\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.386056Z","level":"info","event":"    \"close_date_description\": \"Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.386954Z","level":"info","event":"    \"created_at\": \"2026-09-03T20:35:21+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.387744Z","level":"info","event":"    \"estimated_total_program_funding\": 1260000000,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.388540Z","level":"info","event":"    \"expected_number_of_awards\": 196,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.389651Z","level":"info","event":"    \"fiscal_year\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.390744Z","level":"info","event":"    \"forecasted_award_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.391690Z","level":"info","event":"    \"forecasted_close_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.392867Z","level":"info","event":"    \"forecasted_close_date_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.393946Z","level":"info","event":"    \"forecasted_post_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.394900Z","level":"info","event":"    \"forecasted_project_start_date\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.395742Z","level":"info","event":"    \"funding_categories\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.396550Z","level":"info","event":"      \"health\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.397404Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.398098Z","level":"info","event":"    \"funding_category_description\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.398696Z","level":"info","event":"    \"funding_instruments\": [","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.399493Z","level":"info","event":"      \"cooperative_agreement\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.400221Z","level":"info","event":"    ],","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.400958Z","level":"info","event":"    \"is_cost_sharing\": true,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.401657Z","level":"info","event":"    \"is_forecast\": false,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.402337Z","level":"info","event":"    \"post_date\": \"2026-09-03\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.418780Z","level":"info","event":"    \"summary_description\": \"Since 1990, CDC's Division of Cancer Prevention and Control (DCPC) has been working with national organizations, state, territory, freely associated state, and tribal health agencies, and other key groups to develop, implement, and promote effective strategies for preventing and controlling cancer.  DCPC's overall mission is to work toward having all people free of cancer while improving health outcomes through prevention, screening, and ongoing care for cancer survivors.  DCPC supports comprehensive cancer control, a philosophical approach that brings together partners and other organizations to collectively address a community's cancer burden in a much more impactful way than any one organization could accomplish alone.  This NOFO will fund eligible applicants to facilitate collaborative planning and implementation of evidence-based cancer surveillance, prevention, and control strategies in communities that improve the provision of clinical preventive services, and cancer survivorship. Ultimately, a successful implementation of the work described in this NOFO will demonstrate that by the three programs working together through partnerships, coordination of resources and efforts, consistent communication, and community involvement, we will come that much closer to the division's mission of \\\"All People Free of Cancer.\\\"  This program takes a comprehensive, coordinated approach to achieve these goals. It supports breast and cervical cancer screening and diagnostic services, cancer control plan implementation by coalitions, and surveillance programs to monitor and report cancer burden.These goals will be accomplished by funding three national programs:Program 1: National Breast and Cervical Cancer Early Detection Program (NBCCEDP) supports clinical services for women with low incomes who do not have adequate insurance and implementation of evidence-based interventions in the clinics that serve them. Component A: Supports breast and cervical cancer screening and diagnostic follow-up for women with low incomes who do not have adequate insurance. Component B: (Optional) Supports implementation of evidence-based interventions (EBIs) shown to increase breast and cervical cancer screening.Program 2: National Comprehensive Cancer Control Program (NCCCP) supports cancer coalition efforts that use their individual and collective resources to plan and implement evidence-based strategies as described in jurisdiction-wide cancer plans.Program 3: National Program of Cancer Registries (NPCR) supports the implementation of a population-based central cancer registry program.\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.420750Z","level":"info","event":"    \"updated_at\": \"2026-09-03T21:34:59+00:00\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.421937Z","level":"info","event":"    \"version_number\": 2","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.422913Z","level":"info","event":"  },","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.423895Z","level":"info","event":"  \"tagline\": null,","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.424720Z","level":"info","event":"  \"top_level_agency_code\": \"HHS\",","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.425576Z","level":"info","event":"  \"top_level_agency_name\": \"Department of Health and Human Services\"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.426301Z","level":"info","event":"}","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.427028Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.427925Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.428846Z","level":"info","event":"✅ Saved 7 records to: bronze/grants_gov/ingest_date=2026-09-04/opportunities.json","logger":"task.stdout"}
+{"timestamp":"2026-09-04T15:52:30.447361Z","level":"info","event":"::endgroup::","map_index":-1,"task_id":"ingest_cdc","dag_id":"orchestrate","try_number":1,"ti_id":"01a06d1f-129a-72e1-8014-7a8e356d3d82","run_id":"manual__2026-09-04T15:52:28.030683+00:00","logger":"task","filename":"task_runner.py","lineno":2379}

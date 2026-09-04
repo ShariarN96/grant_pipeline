@@ -1,6 +1,14 @@
+version: 2
+
 sources:
   - name: grant
     database: GRANTS
     schema: bronze
     tables:
-        - name: bronze_grants
+      - name: bronze_grants
+
+  - name: silver
+    database: GRANTS
+    schema: silver
+    tables:
+      - name: enrichment_grant_category

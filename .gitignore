@@ -9,6 +9,7 @@ rsa_private_key.p8
 rsa_public_key.pub
 profiles.yml
 dbt.log
+*.cfg
 
 # Virtual environments
 .venv

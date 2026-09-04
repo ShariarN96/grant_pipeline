@@ -1,6 +1,6 @@
 snapshots:
   - name: dim_opps
-    relation: ref('eph_opps')   
+    relation: ref('int_opps')   
     config:
       schema: gold
       database: GRANTS

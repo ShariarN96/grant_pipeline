@@ -66,6 +66,7 @@ x-airflow-common: &airflow-common
     AIRFLOW__API_AUTH__JWT_SECRET: ${AIRFLOW__API_AUTH__JWT_SECRET:-airflow_jwt_secret}
     AIRFLOW__API_AUTH__JWT_ISSUER: ${AIRFLOW__API_AUTH__JWT_ISSUER:-airflow}
     PYTHONPATH: /opt/airflow
+    OPENAI_API_KEY: ${OPENAI_API_KEY}
     # yamllint disable rule:line-length
     # Use simple http server on scheduler for health checks
     # See https://airflow.apache.org/docs/apache-airflow/stable/administration-and-deployment/logging-monitoring/check-health.html#scheduler-health-check-server
@@ -82,8 +83,10 @@ x-airflow-common: &airflow-common
     - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
     - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
     - ../src/ingestion:/opt/airflow/ingestion
+    - ../src/llm:/opt/airflow/llm
     - ../src/dbt_transform:/opt/airflow/dbt_transform
     - ${SNOWFLAKE_PRIVATE_KEY_PATH_HOST:-C:/Users/shahr/rsa_private_key.p8}:/opt/airflow/secrets/rsa_private_key.p8:ro
+    - ./digests:/opt/airflow/digests 
 
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:

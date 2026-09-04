@@ -10,6 +10,13 @@ WITH source AS (
         raw_data:opportunity_number::STRING                   AS opportunity_number,
         raw_data:opportunity_status::STRING                   AS opportunity_status,
         raw_data:opportunity_title::STRING                    AS opportunity_title,
+        CASE
+            WHEN raw_data:opportunity_id::STRING IS NOT NULL
+                THEN 'https://simpler.grants.gov/opportunity/' || raw_data:opportunity_id::STRING
+            WHEN raw_data:legacy_opportunity_id::STRING IS NOT NULL
+                THEN 'https://grants.gov/search-results-detail/' || raw_data:legacy_opportunity_id::STRING
+            ELSE NULL
+        END AS opportunity_url,
 
         -- agency (becomes dim_agency in gold)
         raw_data:agency::STRING                               AS agency_code,
@@ -34,6 +41,8 @@ WITH source AS (
         raw_data:summary:agency_email_address::STRING         AS agency_email,
         raw_data:summary:applicant_eligibility_description::STRING AS applicant_eligibility,
         raw_data:summary:close_date_description::STRING       AS close_date_description,
+        -- raw_data:summary:funding_categories::STRING AS funding_category,
+        ARRAY_TO_STRING(raw_data:summary:funding_categories, ', ') AS funding_category,
         raw_data:summary:funding_category_description::STRING AS funding_category_description,
         raw_data:summary:summary_description::STRING          AS summary_description,
 
