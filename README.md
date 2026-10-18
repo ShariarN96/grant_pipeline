@@ -6,7 +6,7 @@ An end-to-end data engineering project that ingests U.S. federal grant opportuni
 
 ![Daily grant digest](docs/images/digest.png)
 
-This is a real digest produced by the pipeline. Each grant is classified by the LLM, grouped by research domain, and shown with its agency, deadline and award ceiling. You can view the full [sample digest HTML](docs/sample_digest.html). If you clone the repo, open that file in a browser.
+This is a real digest produced by the pipeline. Each grant is classified by the LLM, grouped by research domain, and shown with its agency, deadline and award ceiling. **[View the live sample digest](https://shariarn96.github.io/grant_pipeline/sample_digest.html)**. The source is in [`docs/sample_digest.html`](docs/sample_digest.html).
 
 ## Table of Contents
 
