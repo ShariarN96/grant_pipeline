@@ -11,6 +11,10 @@ profiles.yml
 dbt.log
 *.cfg
 
+# Airflow runtime output
+airflow/logs/
+airflow/digests/
+
 # Virtual environments
 .venv
 .env

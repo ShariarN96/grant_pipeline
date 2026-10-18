@@ -1,0 +1,16 @@
+# Copy to profiles.yml in this folder (it is git-ignored) and adjust.
+# In the Airflow containers this folder is mounted at /opt/airflow/dbt_transform/grant,
+# and dbt picks up profiles.yml from the current working directory.
+grant:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
+      user: "{{ env_var('SNOWFLAKE_USER') }}"
+      private_key_path: "{{ env_var('SNOWFLAKE_PRIVATE_KEY_PATH') }}"
+      role: ACCOUNTADMIN        # use a least-privilege role if you can
+      warehouse: COMPUTE_WH
+      database: GRANTS
+      schema: silver
+      threads: 4
