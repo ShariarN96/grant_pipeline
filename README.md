@@ -34,21 +34,7 @@ Researchers have to dig through thousands of federal funding listings to find on
 
 ## Architecture
 
-```mermaid
-flowchart LR
-    A[Simpler Grants.gov API] -->|requests| B[ADLS Gen2<br/>bronze container<br/>NDJSON]
-    B -->|COPY INTO| C[(Snowflake<br/>BRONZE.bronze_grants)]
-    C -->|dbt| D[(SILVER.silver_grant)]
-    D -->|OpenAI gpt-4o-mini| E[(SILVER.enrichment_grant_category)]
-    D --> F[dbt gold models]
-    E --> F
-    F --> G[(GOLD.fact<br/>GOLD.dim_agency<br/>GOLD.dim_opps)]
-    G -->|SQL select + LLM blurbs| H[HTML Newsletter]
-
-    subgraph Orchestration
-    I[Apache Airflow DAG: orchestrate]
-    end
-```
+![Pipeline architecture](docs/images/architecture.svg)
 
 ### Airflow DAG
 
