@@ -1,6 +1,6 @@
 # Grant Opportunities Data Pipeline
 
-An end-to-end data engineering project that ingests U.S. federal grant opportunities from [simpler.grants.gov](https://simpler.grants.gov), models them in Snowflake with dbt using a medallion architecture (bronze, silver, gold), classifies each grant into a research domain with an LLM, and produces a styled daily HTML newsletter. Apache Airflow orchestrates the whole thing.
+An end-to-end data engineering project that ingests U.S. federal grant opportunities from [simpler.grants.gov](https://simpler.grants.gov), models them in Snowflake with dbt using a medallion architecture (bronze, silver, gold), classifies each grant into a research domain with an LLM, produces a daily newsletter, and orchestrates the entire workflow with Apache Airflow.
 
 ## Sample Output
 
@@ -15,12 +15,7 @@ This is a real digest produced by the pipeline. Each grant is classified by the 
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
 - [Pipeline Stages](#pipeline-stages)
-- [Data Model](#data-model)
 - [Design Decisions](#design-decisions)
-- [Getting Started](#getting-started)
-- [Running Components Individually](#running-components-individually)
-- [Configuration Reference](#configuration-reference)
-- [Future Improvements](#future-improvements)
 
 ## Overview
 
@@ -75,24 +70,24 @@ Python libraries: `requests`, `azure-storage-file-datalake`, `snowflake-connecto
 grant/
 ├── airflow/
 │   ├── dags/
-│   │   └── orchestrate.py          # The main DAG
-│   ├── digests/                    # Generated daily HTML newsletters
-│   └── logs/                       # Airflow run logs
+│   │   └── orchestrate.py          
+│   ├── digests/                    
+│   └── logs/                       
 ├── src/
 │   ├── ingestion/
-│   │   ├── ingest.py               # API -> ADLS (bronze)
-│   │   ├── load_snowflake.py       # ADLS -> Snowflake (COPY INTO)
-│   │   └── test.sql                # The COPY INTO statement
+│   │   ├── ingest.py               
+│   │   ├── load_snowflake.py       
+│   │   └── test.sql                
 │   ├── llm/
-│   │   ├── classifier.py           # LLM research-domain classification
-│   │   ├── newsletter.py           # Styled HTML digest generator
-│   │   └── news.py                 # Earlier plain-HTML digest variant
-│   └── dbt_transform/grant/        # dbt project
+│   │   ├── classifier.py           
+│   │   ├── newsletter.py          
+│   │   └── news.py                 
+│   └── dbt_transform/grant/       
 │       ├── models/
-│       │   ├── source/source.yml   # Source declarations
-│       │   ├── silver/             # silver_grant (incremental)
-│       │   └── gold/               # fact, dim_agency, ephemeral/int_opps
-│       ├── snapshots/dim_opp.yml   # SCD Type 2 snapshot -> dim_opps
+│       │   ├── source/source.yml  
+│       │   ├── silver/             
+│       │   └── gold/               
+│       ├── snapshots/dim_opp.yml   
 │       └── macros/custom_schema.sql
 ├── pyproject.toml
 └── README.md
@@ -155,25 +150,6 @@ How it works:
 - **The LLM only writes language.** It produces one-sentence plain-English summaries as JSON, using only the supplied fields.
 - **Python owns the design.** A styled HTML template renders cards grouped by research domain, with agency, deadline and award-ceiling tags.
 - The Airflow task saves the digest to `airflow/digests/digest_YYYY-MM-DD.html`. The script can also send it over SMTP.
-
-## Data Model
-
-```
-BRONZE
-  bronze_grants              raw_data (VARIANT), source_file, ingestion_time
-
-SILVER
-  silver_grant               typed, deduplicated opportunities (dbt, incremental)
-  enrichment_grant_category  opportunity_id, research_domain, enriched_at (LLM output)
-
-GOLD
-  fact                       opportunity_id, agency_code, post_date, close_date, award_ceiling, award_floor
-  dim_agency                 agency_code, agency_name, top_level_agency_code, top_level_agency_name
-  dim_opps                   SCD2 snapshot: opportunity attributes + research_domain,
-                             with dbt_valid_from / dbt_valid_to
-```
-
-A custom `generate_schema_name` macro (`macros/custom_schema.sql`) and the `+schema` settings in `dbt_project.yml` place silver models in `silver` and gold models in `gold`. Silver models are materialized as views by default, with `silver_grant` overriding to incremental. Gold models are tables.
 
 ## Design Decisions
 
